@@ -68,9 +68,9 @@ Pontypool Party in the Park is an annual event held for the benefit of the local
 ### Images
 
 ### Wireframe Designs
-  * [Mobile](readme/wireframes/WFMobilev2.pdf){:target="_blank"}
-  * [Tablet](readme/wireframes/WFTablet.pdf){:target="_blank"}
-  * [Desktop](readme/wireframes/WFDesktop.pdf){:target="_blank"}
+  * [Mobile](readme/wireframes/WFMobilev2.pdf)
+  * [Tablet](readme/wireframes/WFTablet.pdf)
+  * [Desktop](readme/wireframes/WFDesktop.pdf)
 
 ## FEATURES
 
