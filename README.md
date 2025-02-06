@@ -1,58 +1,131 @@
-<h1 align="center">Pontypool Party in The Park (P3)</h1>
+# Pontypool Party in The Park (P3)
 
 <!-- Header image for mockups/landing page display -->
 
-<h2>About this project</h2>
+## ABOUT
 
-<!-- Describe project brief and goal -->
+Pontypool Party in the Park is an annual event held for the benefit of the local community, the purpose of this website is to promote the event and encourage engagement with potential attendees through registration opportunities and social media facilities. The site has been designed and built to be responsive on all screen sizes and various modern devices and is screen-reader compatible, with the intention of being accessible to all user groups.
 
-<h3>Table of Contents</h3>
+## CONTENTS
 
-1. User Experience
-  a. Site Owner Goals
-  b. User Stories
+###  1. [User Experience (UX)](#user-experience-ux)
+  * [Site Owner Goals](#site-owner-goals)
+  * [User Stories](#user-stories)
 
-2. Website Design
-  a. Colour palettes
-  b. Typography
-  c. Images
-  d. Wireframe Designs
+### 2. [Website Design](#website-design)
+  * [Colour palettes](#colour-palettes)
+  * [Typography](#typography)
+  * [Images](#images)
+  * [Wireframe Designs](#wireframe-designs)
 
-3. Features
-  a. Site Navigation
-  b. Calls to Action
-  c. Social engagement
+### 3. [Features](#features)
+  * [Site Navigation](#site-navigation)
+  * [Calls to Action](#calls-to-action)
+  * [Social Engagement](#social-engagement)
 
-4. Technologies Used
-  a. Languages - HTML/CSS
-  b. Google Fonts
-  b. Font Awesome
+### 4. [Technologies](#technologies)
+  * [Coding Languages](#coding-languages)
+  * [Google Fonts](#google-fonts)
+  * [Font Awesome](#font-awesome)
   
-5. Libraries Used
-  a. Bootstrap Libraries
+### 5. [Libraries](#libraries)
+  * [Bootstrap Libraries](#bootstrap-libraries)
 
-5. Testing
-  a. Navigation - nav, anchor and social links
-  b. Buttons - if used
-  c. Forms - registration and success
-  d. User Stories compared to User Experience
-  e. Validation - Use HTML and CSS validation for all site pages
-  f. Lighthouse reports - via Google Chrome
+### 6. [Testing](#testing)
+  * [Navigation](#navigation) - nav, anchor and social links
+  * [Buttons](#buttons)
+  * [Forms](#forms) - registration and success
+  * [User Stories](#user-stories-1) compared to User Experience
+  * [Validation](#validation) - Use HTML and CSS validation for all site pages
+  * [Lighthouse Reports](#lighthouse-reports) - via Google Chrome
 
-6. De-bugging
-  a. Inspector Dev - journey exploring any potential bugs
+### 7. [De-Bugging](#de-bugging)
+  * [Developer Console Tools](#developer-console-tools) - journey exploring any potential bugs
 
-7. Deployment
-  a. Guide to deploy site for other users
+### 8. [Deployment](#deployment)
+  * [GITHUB Pages](#github-pages)
 
-8. Credits
-  b. Code - 3rd party library/code/snippet providers
-  c. Media - images generated with Gemini for originality and to avoide copyright infringement/obtaining permissions.
-  d. 
+### 9. [Credits](#credits)
+  * [Code](#code) - 3rd party library/code/snippet providers
+  * [Media](#media) - images generated with Gemini for originality and to avoid copyright infringement/obtaining permissions.
 
-9. Acknowledgements
-  a. Course provider - Code Insititute
-  b. GitHub - invaluable resource
-  c. Misc - Tim Berners-Lee
+### 10. [Acknowledgements](#acknowledgements)
 
 
+## USER EXPERIENCE (UX)
+
+### Site Owner Goals
+
+### User Stories
+
+
+## WEBSITE DESIGN
+
+### Colour Palettes
+
+### Typography
+
+### Images
+
+### Wireframe Designs
+
+
+## FEATURES
+
+### Site Navigation
+
+### Calls To Action
+
+### Social Engagement
+
+
+## TECHNOLOGIES
+
+### Coding Languages
+
+### Google Fonts
+
+### Font Awesome
+
+
+## LIBRARIES
+
+### Bootstrap Libraries
+
+
+## TESTING
+
+### Navigation
+
+### Buttons
+
+### Forms
+
+### User Stories
+
+### Validation
+
+### Lighthouse Reports
+
+
+## DE-BUGGING
+
+### Developer Console Tools
+
+
+## DEPLOYMENT
+
+### GITHUB Pages
+
+
+## CREDITS
+
+### Code
+
+### Media
+
+
+## ACKNOWLEDGEMENTS
+
+  * Course provider - Code Insititute
+  * GitHub - invaluable resource
