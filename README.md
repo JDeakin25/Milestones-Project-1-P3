@@ -56,7 +56,78 @@ Pontypool Party in the Park is an annual event held for the benefit of the local
 
 ### Site Owner Goals
 
+Pontypool Community Council are the intended site owners and will expect clarity, assurance and delivery of the following criteria:
+
+  - [Return on investment](#return-on-investment)
+  - [Audience perception](#audience-perception)
+  - [Increased turnover and revenue](#increased-turnover-and-revenue)
+  - [Increased engagement with target audiences & driving efficent conversion rates](#increased-engagement-with-target-audiences--driving-efficent-conversion-rates)
+  - Increased site traffic
+  - Culturally-appropriate content
+  - Relevance to the local community
+  - Intuitive presentation
+  - Technology choices
+
+  ### Return on investment
+
+  Through researching prior iterations of the annual Pontypool Party in The Park events and exploring Council Committee meeting agenda minutes I've learned that the Pontypool Community Council (PCC) budget around £30k for this event - being the most expensive event in the local community calendar. The PCC currently host a single page to promote the event on their website (https://pontypoolcc.gov.uk/community-information/annual-events/party-in-the-park/) and I've found this iteration to be ineffective in attracting and incentivising attendance. It serves the purpose of presenting the event's existence, clarifies the event date and cost, has a supporting image gallery and a link to social media, but does not serve to incentivise and motivate attendance and engagement with the event. There is a lack of call-to-action points and aside from the option of viewing further details on social media, there is no option for potential attendees to register their interest directly with the site organisers and be kept up-to-date on event news efficiently.
+  
+  By designing and implementing a new site page that acknowledges the current shortfalls and prioritises engagement with the local community and incentivises attendance, we can work to achieve the following goals:
+
+  - Increased attendance/footfall at the event
+  - Increased levels of spending - improving the local economy and visibility of local small businesses
+  - Increased exposure to the local area and the social/commercial opportunities available
+  - Increased awareness of charitable causes
+  - Promotion of the local community unique to Pontypool, bolstering social cohesion and engagement
+  - Promotion of local initiatives and talents
+  - Generate sponsorship opportunities
+
+  ### Audience perception
+
+  To ensure site visitors are provided with crucially positive impressions of the event and are motivated to attend, this project will work towards achieving the following key goals:
+
+  - The site content is fun, simplistic and engaging
+  - The site is attractive and motivational to range of different cultural and social demographics and is positively inclusive in nature
+  - The site uses modern design trends and is accessible to a wide range of screen sizes and device mediums.
+  - The site offers interactivity that generates further engagement
+  - The site complies with all necessary accessibility requirement, ensuring full compatiblilty with screen-reader technologies
+
+  ### Increased turnover and revenue
+
+  Through identifying the criteria which are required to achieve the target of increased attendance and site-user conversion, I can reasonably speculate that increased footfall and attendance along with increased options for retail opportunities will all combine to promote spending at the event with event traders, including small businesses in the vicinity of the event not directly involved.
+
+  ### Increased engagement with target audiences & driving efficent conversion rates
+
+  By assessing the current short-falls in engagement facilities within the current PCC event site and planning a suitable and progressive alternative medium that promotes engagement and drives site user conversion (by way of a registration form), I'm confident in achieving the project goals. Through the use of engaging, informative yet simple to assimilate information and essential call-to-action points strategically placed intermittently throughout the page, this project site will encourage fruitful and useful site user engagement that will convert to tangible benefits for the event organisers, local community businesses and event attendees combined.
+
+  ### Increased site traffic
+
+  
+
+
 ### User Stories
+
+- #### As a site visitor and member of the local community ...
+
+  - I need a user-friendly design that is responsive and laid out effectively, so I can easily find the core information I require to make an informed decision on attendance.
+
+  - I need clear and attractive images along with written content to support said images which accurately depict the environment and atmosphere of the event, so I can make a qualified decision on attendance.
+
+  - I need to be able to quickly and easily find important event information such as date, location and cost, to be able to decide on attendance.
+
+  - I want to learn about the entertainment acts and food / gift stalls that will be available during the event, to help decide on attendance and whether the event is suitable.
+
+  - I'd like to be able to register minimal details with the event organisers to ensure I am kept up to date on any news and incentives related to the event, before attendance.
+
+  - I'd appreciate information that confirms the availability of toilets, handwashing facilities and health professionals to ensure our attendance at the event is comfortable and safe. This information will help determine the suitability to attend this event.
+
+  - I would like to be able to see answers to common questions an event attendee may ask before deciding on attendance.
+
+  - I would like reassurance that the event is a 'safe space' and inclusive for all cultural and social demographics, is non-discriminatory and has resources available to support me should I need advice.
+
+  - I would like to know about which charities are being supported by the event and how I may be able to contribute, to help support important initiatives and positive change.
+
+  - I would like to know about what opportunities there are available to support the event in achieving it's financial targets, with the goal of promoting my business and gaining traction in the local areas of commerce.
 
 
 ## WEBSITE DESIGN
