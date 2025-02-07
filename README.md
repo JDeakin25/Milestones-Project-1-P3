@@ -180,9 +180,9 @@ Pontypool Community Council are the intended site owners and will expect clarity
 ### Images
 
 ### Wireframe Designs
-  * [Mobile](readme/wireframes/WFMobilev2.pdf)
-  * [Tablet](readme/wireframes/WFTablet.pdf)
-  * [Desktop](readme/wireframes/WFDesktop.pdf)
+  * [Mobile](docs/mobilewireframe.pdf)
+  * [Tablet](docs/tabletwireframe.pdf)
+  * [Desktop](docs/desktopwireframe.pdf)
 
 ## FEATURES
 
