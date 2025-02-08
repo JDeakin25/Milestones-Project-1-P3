@@ -8,18 +8,22 @@
 }
 
 /* Global Styles */
-body {
+body,
+h3 {
     font-family: var(--primary-font);
 }
 
 h1,
-h2,
-h3 {
+h2 {
     font-family: var(--secondary-font);
 }
 
 h1 {
     font-size: 5rem;
+}
+
+h3 {
+    font-weight: 600;
 }
 
 p {
@@ -30,7 +34,10 @@ p {
 .cta {
     border: 2px solid blue;
     background-color: grey;
-    margin-top: 56px; /* ensures adequate margin for section below fixed navbar */
+}
+
+.section {
+    padding-top: 56px;
 }
 
 .cta {
@@ -45,18 +52,30 @@ p {
 
 /* Hero Section */
 #hero {
-    min-height: 70vh;
+    min-height: 82vh;
 }
 
 /* Intro Section */
 
 /* CTA - Socials */
 #cta-social-text,
-#cta-social-icon {
+.icon {
     font-size: 1.5rem;
 }
 
 #cta-social-text {
     margin-left: 1rem;
     margin-right: 1rem;
+}
+
+/* Entertainment */
+/* Banner Images */
+.ent-row {
+    max-height: 20rem;
+    overflow: hidden;
+}
+
+.ent-row > * {
+    padding-left: 0; /* removes default element padding  */
+    padding-right: 0; 
 }
