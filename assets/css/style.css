@@ -49,6 +49,11 @@ i {
     min-height: 3rem;
 }
 
+.card-title {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
 /* Navbar */
 #navbar {
     background-color: #fff; /* added to remove navbar transparency */
@@ -90,6 +95,7 @@ i {
     display: inline-block; /* ensures no whitespace next to images */
 }
 
-#food-drink {
+#food-drink,
+#gifts-stalls {
     padding-top: 56px;
 }
