@@ -27,16 +27,21 @@ h3 {
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
-.section, 
+i {
+    margin-right: 1rem;
+}
+
+.section,
+.section-p, 
 .cta {
     border: 2px solid blue;
     background-color: grey;
 }
 
-.section {
+.section-p {
     padding-top: 56px;
 }
 
@@ -45,7 +50,6 @@ p {
 }
 
 /* Navbar */
-
 #navbar {
     background-color: #fff; /* added to remove navbar transparency */
 }
@@ -55,16 +59,17 @@ p {
     min-height: 82vh;
 }
 
-/* Intro Section */
-
 /* CTA - Socials */
 #cta-social-text,
 .icon {
     font-size: 1.5rem;
 }
 
+i {
+    margin-right: 1rem;
+}
+
 #cta-social-text {
-    margin-left: 1rem;
     margin-right: 1rem;
 }
 
@@ -78,4 +83,13 @@ p {
 .ent-row > * {
     padding-left: 0; /* removes default element padding  */
     padding-right: 0; 
+}
+
+/* Food & Drink */
+.img-band img {
+    display: inline-block; /* ensures no whitespace next to images */
+}
+
+#food-drink {
+    padding-top: 56px;
 }
