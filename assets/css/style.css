@@ -1,3 +1,27 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+/* CSS Variables */
+:root {
+    --primary-font: "Zain", sans-serif;
+    --secondary-font: "Bagel Fat One", sans-serif;
+}
+
+/* Global Styles */
+body {
+    font-family: var(--primary-font);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--secondary-font);
+}
+
+h1 {
+    font-size: 5rem;
+}
+
 p {
-    color: red;
+    font-size: 1.5rem;
 }

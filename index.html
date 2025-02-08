@@ -20,10 +20,46 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body class="d-flex flex-column"> <!-- enables a flex based full width column layout -->
     
-      <p>CSS TEST TEXT ENTRY</p>
-
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Pontypool Party in The Park</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto"> <!-- ensures nav links align to the right -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#entertainment">Entertainment</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#food-drink">Food & Drink</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#facilities">Facilities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#travel">Travel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faqs">FAQs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a href="#register" class="btn btn-primary ms-lg-3">Register</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
     <!-- Bootstrap JS -->
     <script
