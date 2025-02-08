@@ -27,12 +27,18 @@ p {
 }
 
 .section {
+    min-height: 70vh;
     border: 2px solid blue;
     background-color: grey;
     margin-top: 56px; /* ensures adequate margin for section below fixed navbar */
 }
 
-/* Hero Section */
-#hero {
-    min-height: 70vh;
+/* Navbar */
+
+#navbar {
+    background-color: #fff; /* added to remove navbar transparency */
 }
+
+/* Hero Section */
+
+/* Intro Section */
