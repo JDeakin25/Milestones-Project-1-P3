@@ -26,10 +26,15 @@ p {
     font-size: 1.5rem;
 }
 
-.section {
+.section, 
+.cta {
     border: 2px solid blue;
     background-color: grey;
     margin-top: 56px; /* ensures adequate margin for section below fixed navbar */
+}
+
+.cta {
+    min-height: 3rem;
 }
 
 /* Navbar */
@@ -44,3 +49,14 @@ p {
 }
 
 /* Intro Section */
+
+/* CTA - Socials */
+#cta-social-text,
+#cta-social-icon {
+    font-size: 1.5rem;
+}
+
+#cta-social-text {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
