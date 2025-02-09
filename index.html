@@ -496,7 +496,7 @@
       </section>
 
       <!-- Facilities -->
-      <section class="container section-p">
+      <section id="facilities" class="container section-p">
         <div class="row mb-5">
           <div class="col-12 text-center">
             <h2 class="display-3 mb-5"><i class="fa-solid fa-briefcase-medical"></i>Facilities</h2>
@@ -546,6 +546,63 @@
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Registration -->
+      <section id="register" class="container section-p">
+        <div class="row mb-2">
+          <div class="col-12 text-center">
+            <h2 class="display-3 mb-5"><i class="fa-solid fa-clipboard-list"></i></i>Registration</h2>
+          </div>
+        </div>
+        
+        <!-- Image Tiles & Form-->
+        <div class="row mb-4">
+          <div class="col-12 col-md-3 mb-4">
+            <img src="assets/images/reg-tile1.webp" class="img-fluid" alt="An overhead view of Pontypool Band Stand">
+          </div>
+
+          <!-- Form -->
+          <div class="col-12 col-md-6 mb-4">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus sint repellendus nemo sed quod minus, provident qui pariatur quos sit, vitae culpa nisi voluptatem hic? Earum eum omnis ducimus hic!
+            </p>
+            <form action="success-reg.html" method="GET">
+              <!-- First and Last Names -->
+              <div class="row">
+                <div class="col-12 col-md-6 mb-4">
+                  <input type="text" id="first-name" name="first-name" class="form-control" placeholder="First name" aria-label="First name" required>
+                </div>
+                <div class="col-12 col-md-6 mb-4">
+                  <input type="text" id="last-name" name="last-name" class="form-control" placeholder="Last name" aria-label="Last name" required>
+                </div>
+              </div>
+              <!-- Email and Attendee Selector -->
+              <div class="row">
+                <div class="col-12 col-md-6 mb-4">
+                  <input type="email" id="email" name="email" class="form-control" placeholder="Email" aria-label="Email" required>
+                </div>
+                <div class="col-12 col-md-6 mb-4">
+                  <select id="attendee-type" name="attendee-type" class="form-select" required>
+                    <option value="" selected>Register as...</option>
+                    <option value="guest">A Guest</option>
+                    <option value="performer">A Performer</option>
+                    <option value="trader">A Trader</option>
+                  </select>
+                </div>
+              </div>
+              <div class="d-flex justify-content-end">
+                <button type="submit" class="btn btn-primary">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-12 col-md-3 mb-4">
+            <img src="assets/images/reg-tile1.webp" class="img-fluid" alt="An overhead view of Pontypool Band Stand">
           </div>
         </div>
       </section>
