@@ -9,12 +9,13 @@
 
 /* Global Styles */
 body,
-h3 {
+h4 {
     font-family: var(--primary-font);
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: var(--secondary-font);
 }
 
@@ -22,7 +23,7 @@ h1 {
     font-size: 5rem;
 }
 
-h3 {
+h4 {
     font-weight: 600;
 }
 
