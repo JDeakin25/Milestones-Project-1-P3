@@ -63,7 +63,7 @@
               <a class="nav-link" href="#travel">Travel</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#faqs">FAQs</a>
+              <a class="nav-link" href="#faq">FAQs</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -586,7 +586,7 @@
                 </div>
                 <div class="col-12 col-md-6 mb-4">
                   <select id="attendee-type" name="attendee-type" class="form-select" required>
-                    <option value="" selected>Register as...</option>
+                    <option value="" selected>Register as ...</option>
                     <option value="guest">A Guest</option>
                     <option value="performer">A Performer</option>
                     <option value="trader">A Trader</option>
@@ -666,7 +666,7 @@
           
           <!-- FAQs -->
           <div id="faq" class="col-12 col-xl-6">
-            <h2 class="display-3 mb-5 text-center"><i class="fa-regular fa-circle-question"></i>FAQs</h2>
+            <h2 class="display-3 mb-4 text-center"><i class="fa-regular fa-circle-question"></i>FAQs</h2>
             <div class="accordion" id="accordionExample">
               <div class="accordion-item">
                 <h3 class="accordion-header">
@@ -745,9 +745,65 @@
 
           <!-- Contact -->
           <div id="contact" class="col-12 col-xl-6">
+            <h2 class="display-3 mb-4 text-center"><i class="fa-solid fa-pen-to-square"></i>Contact Us</h2>
+            <p class="mb-4">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore ea non dolore ad! Assumenda rem minima, quia porro non nisi iure reiciendis totam eligendi magnam soluta qui accusamus et animi!
+            </p>
 
+            <!-- Form -->
+            <form action="success-contact.html" method="GET">
+            
+              <!-- First and Last Names -->
+              <div class="row">
+                <div class="col-12 col-md-6 mb-4">
+                  <input type="text" id="first-name" name="first-name" class="form-control" placeholder="First name" aria-label="First name" required>
+                </div>
+                <div class="col-12 col-md-6 mb-4">
+                  <input type="text" id="last-name" name="last-name" class="form-control" placeholder="Last name" aria-label="Last name" required>
+                </div>
+              </div>
+                
+              <!-- Email and Attendee Selector -->
+              <div class="row">
+                <div class="col-12 col-md-6 mb-4">
+                  <input type="email" id="email" name="email" class="form-control" placeholder="Email" aria-label="Email" required>
+                </div>
+                <div class="col-12 col-md-6 mb-4">
+                  <select id="attendee-type" name="attendee-type" class="form-select" required>
+                    <option value="" selected>Enquiry Type ...</option>
+                    <option value="guest">Guest Enquiry</option>
+                    <option value="performer">Performer Enquiry</option>
+                    <option value="trader">Trader Enquiry</option>
+                    <option value="charity">Charity Enquiry</option>
+                    <option value="sponsor">Sponsor Enquiry</option>
+                  </select>
+                </div>
+
+                <!-- Details Text Area -->
+                <div class="mb-4">
+                  <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea" style="height: 100px"></textarea>
+                </div>
+
+                <!-- Submit -->
+                <div class="d-flex justify-content-end mb-4">
+                  <button type="submit" class="btn btn-primary">
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </form>
+
+            <!-- Social Media -->
+            <h2 class="display-3 mb-4 text-center"><i class="fa-solid fa-pen-to-square"></i>Social Media</h2>
+            <p class="mb-4">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore ea non dolore ad! Assumenda rem minima, quia porro non nisi iure reiciendis totam eligendi magnam soluta qui accusamus et animi!
+            </p>
+            <div class="icon-lrg d-flex justify-content-evenly mb-5"> <!-- Ensures consistent spacing between icons -->
+              <i class="fa-brands fa-square-facebook"></i>
+              <i class="fa-brands fa-square-x-twitter"></i>
+              <i class="fa-brands fa-square-instagram"></i>
+            </div>
           </div>
-
         </div>
       </section>
 
