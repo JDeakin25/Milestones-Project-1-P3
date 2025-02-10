@@ -151,3 +151,20 @@ i,
 .icon-lrg {
     font-size: 3rem;
 }
+
+/* Registration */
+#register {
+    min-height: 60vh;
+    width: 100%;
+    background: url("../images/reg-background.webp") no-repeat center center/cover; 
+    color: #fff;
+}
+
+#reg-row {
+    box-shadow: 10px 10px 20px #000000a5;
+    padding: 1.5rem;
+    width: 60vw;
+    backdrop-filter: blur(20px);
+    border: 2px solid #fff;
+    border-radius: 50px;
+}
