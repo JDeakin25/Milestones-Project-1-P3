@@ -32,8 +32,6 @@ p {
     line-height: 1.2;
 }
 
-
-
 .section,
 .section-p, 
 .cta {
@@ -61,7 +59,7 @@ p {
 
 /* Hero Section */
 #hero {
-    min-height: 82vh;
+    min-height: 83vh;
     width: 100%;
     background: url("../images/hero-background.webp") no-repeat center center/cover; /* ensures image does not repeat, is centralised and spans full width */
     color: #fff;
@@ -102,10 +100,7 @@ p {
     font-size: 1.5rem;
 }
 
-i {
-    margin-right: 1rem;
-}
-
+i,
 #cta-social-text {
     margin-right: 1rem;
 }
@@ -113,7 +108,7 @@ i {
 /* Entertainment */
 /* Banner Images */
 #ent-main {
-    min-height: 82vh;
+    min-height: 83vh;
     width: 100%;
     background: url("../images/ent-background.webp") no-repeat center center/cover;
 }
@@ -136,8 +131,15 @@ i {
 
 
 /* Food & Drink */
-.img-band img {
-    display: inline-block; /* ensures no whitespace next to images */
+#food-drink,
+#gifts-stalls {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.fd-gs-content {
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 #food-drink,
