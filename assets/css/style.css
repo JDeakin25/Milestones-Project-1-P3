@@ -29,11 +29,10 @@ h4 {
 
 p {
     font-size: 1.3rem;
+    line-height: 1.2;
 }
 
-i {
-    margin-right: 1rem;
-}
+
 
 .section,
 .section-p, 
@@ -76,7 +75,7 @@ i {
     padding: 1.5rem;
     border: 2px solid #fff;
     border-radius: 50px;
-    text-shadow: 3px 3px #000000d0;
+    text-shadow: 3px 3px #00000094;
     box-shadow: 10px 10px 20px #000000a5;
 }
 #hero-text-intro {
@@ -122,6 +121,7 @@ i {
     padding-left: 0; /* removes default element padding  */
     padding-right: 0; 
 }
+
 
 /* Food & Drink */
 .img-band img {
