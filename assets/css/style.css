@@ -63,6 +63,37 @@ i {
 /* Hero Section */
 #hero {
     min-height: 82vh;
+    width: 100%;
+    background: url("../images/hero-background.webp") no-repeat center center/cover; /* ensures image does not repeat, is centralised and spans full width */
+    color: #fff;
+}
+
+#hero-row {
+    width: 40vw;
+}
+#hero-text {
+    backdrop-filter: blur(10px); /* blurs image behind container to add to contrast of text and image */
+    padding: 1.5rem;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    text-shadow: 3px 3px #000000d0;
+}
+#hero-text-intro {
+    font-style: italic;
+    font-size: 1.25rem;
+}
+#hero-text-title {
+    line-height: 1;
+    padding-bottom: 2rem;
+}
+
+#hero-text-details {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+#hero-buttons {
+    text-shadow: none;
 }
 
 /* CTA - Socials */
