@@ -77,6 +77,7 @@ i {
     border: 2px solid #fff;
     border-radius: 50px;
     text-shadow: 3px 3px #000000d0;
+    box-shadow: 10px 10px 20px #000000a5;
 }
 #hero-text-intro {
     font-style: italic;
