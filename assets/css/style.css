@@ -72,7 +72,7 @@ i {
     width: 40vw;
 }
 #hero-text {
-    backdrop-filter: blur(10px); /* blurs image behind container to add to contrast of text and image */
+    backdrop-filter: blur(20px); /* blurs image behind container to add to contrast of text and image */
     padding: 1.5rem;
     border: 2px solid #fff;
     border-radius: 50px;
