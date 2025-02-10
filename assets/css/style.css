@@ -112,6 +112,18 @@ i {
 
 /* Entertainment */
 /* Banner Images */
+#ent-main {
+    min-height: 82vh;
+    width: 100%;
+    background: url("../images/ent-background.webp") no-repeat center center/cover;
+}
+
+#ent-title {
+    background-color: #fff;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
 .ent-row {
     max-height: 20rem;
     overflow: hidden;
