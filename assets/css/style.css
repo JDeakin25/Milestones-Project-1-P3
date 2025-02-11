@@ -123,17 +123,6 @@ i,
     height: auto;
 }
 
-#food-drink,
-#gifts-stalls {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.fd-gs-content {
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
-
 /* Contact / Social Media */
 .icon-lrg {
     font-size: 3rem;
@@ -156,6 +145,11 @@ i,
     border-radius: 50px;
 }
 
+/* Travel */
+#map {
+    min-height: 30vh;
+}
+
 /* Media Queries */
 
 /* Large devices (laptops, up to 1200px) */
@@ -174,7 +168,12 @@ i,
     #hero-text-title {
         font-size: 4rem;
     }
-    
+    /* Travel */
+    #map {
+    min-height: 33vh;
+    margin-bottom: 3rem;
+    }
+
     #register {
         min-height: 70vh;
     }
