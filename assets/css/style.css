@@ -104,6 +104,7 @@ i,
 #cta-social-text {
     margin-right: 1rem;
 }
+
 /* Entertainment */
 #entertainment {
     min-height: 82vh;
@@ -114,8 +115,12 @@ i,
     background-color: #fff;
 }
 
-
 /* Food & Drink */
+.img-band img {
+    width: 100%;
+    height: auto;
+}
+
 #food-drink,
 #gifts-stalls {
     padding-left: 0;
@@ -125,11 +130,6 @@ i,
 .fd-gs-content {
     padding-left: 2rem;
     padding-right: 2rem;
-}
-
-#food-drink,
-#gifts-stalls {
-    padding-top: 56px;
 }
 
 /* Contact / Social Media */
@@ -162,9 +162,20 @@ i,
     }
 }
 
-/* Medium devices (tablets, up to 992px) */
-@media screen and (max-width: 992px) {
+/* Medium devices (tablets, up to 767px) */
+@media screen and (max-width: 767px) {
     #hero-row {
         width: 75vw;
+    }
+}
+
+/* Large devices (laptops, up to 1200px) */
+@media screen and (max-width: 1200px) {
+    #hero-row {
+        width: 75vw;
+    }
+
+    .card-p {
+        margin-bottom: 3rem;
     }
 }
