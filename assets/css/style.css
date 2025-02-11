@@ -114,7 +114,6 @@ i,
 /* Banner Images */
 #ent-main {
     min-height: 83vh;
-    width: 100%;
     background: url("../images/ent-background.webp") no-repeat center center/cover;
 }
 

@@ -8,3 +8,4 @@ node_modules/
 .github/
 cloudinary_python.txt
 assets/.DS_Store
+.DS_Store
