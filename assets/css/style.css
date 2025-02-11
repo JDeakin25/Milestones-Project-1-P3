@@ -168,3 +168,19 @@ i,
     border: 2px solid #fff;
     border-radius: 50px;
 }
+
+/* Media Queries */
+/* Small devices (mobiles, up to 470px) */
+@media screen and (max-width: 470px) {
+    #hero-text-title {
+        font-size: 3rem;
+    }
+}
+
+
+/* Medium devices (tablets, up to 992px) */
+@media screen and (max-width: 992px) {
+    #hero-row {
+        width: 75vw;
+    }
+}
