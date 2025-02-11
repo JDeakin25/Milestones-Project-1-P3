@@ -138,7 +138,7 @@ i,
 
 #reg-row {
     box-shadow: 10px 10px 20px #000000a5;
-    padding: 1.5rem;
+    padding: 1rem;
     width: 60vw;
     backdrop-filter: blur(20px);
     border: 2px solid #fff;
@@ -156,7 +156,7 @@ i,
 @media screen and (max-width: 1200px) {
     #hero-row,
     #reg-row {
-        width: 75vw;
+        width: 80vw;
     }
     .card-p {
         margin-bottom: 3rem;
