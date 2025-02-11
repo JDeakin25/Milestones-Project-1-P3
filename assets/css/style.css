@@ -104,18 +104,23 @@ i,
 #cta-social-text {
     margin-right: 1rem;
 }
-
 /* Entertainment */
-.entertainment {
-    padding-left: 0;
-    padding-right: 0;
+#entertainment {
+    min-height: 60vh;
+    width: 100%;
+    background: url("../images/ent-background.webp") no-repeat center center/cover; 
+    color: #fff;
 }
 
-
-#ent-title {
-    padding-left: 15vw;
-    padding-right: 15vw;
+#ent-row {
+    box-shadow: 10px 10px 20px #000000a5;
+    padding: 1.5rem;
+    width: 60vw;
+    backdrop-filter: blur(20px);
+    border: 2px solid #fff;
+    border-radius: 50px;
 }
+
 
 /* Food & Drink */
 #food-drink,
@@ -162,11 +167,16 @@ i,
     #hero-text-title {
         font-size: 3rem;
     }
+
+    #ent-text-title {
+        font-size: 2rem;
+    }
 }
 
 /* Medium devices (tablets, up to 992px) */
 @media screen and (max-width: 992px) {
-    #hero-row {
+    #hero-row,
+    #ent-row {
         width: 75vw;
     }
 }
