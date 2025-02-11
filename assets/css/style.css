@@ -111,28 +111,11 @@ i,
     padding-right: 0;
 }
 
-/* Banner Images */
-#ent-main {
-    min-height: 83vh;
-    background: url("../images/ent-background.webp") no-repeat center center/cover;
-}
 
 #ent-title {
-    background-color: #fff;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
 }
-
-.ent-row {
-    max-height: 20rem;
-    overflow: hidden;
-}
-
-.ent-row > * {
-    padding-left: 0; /* removes default element padding  */
-    padding-right: 0; 
-}
-
 
 /* Food & Drink */
 #food-drink,
