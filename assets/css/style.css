@@ -75,15 +75,13 @@ footer {
 }
 
 #hero-row {
-    width: 40vw;
-}
-.hero-text {
     backdrop-filter: blur(10px); /* blurs image behind container to add to contrast of text and image */
     padding: 0.5rem;
     border: 2px solid #fff;
     border-radius: 20px;
     text-shadow: 2px 2px #00000094;
     box-shadow: 10px 10px 20px #000000a5;
+    width: 40vw;
 }
 #hero-text-intro {
     font-style: italic;
@@ -128,7 +126,7 @@ i,
 
 /* Registration */
 #register {
-    min-height: 80vh;
+    min-height: 100vh;
     width: 100%;
     background: url("../images/reg-background.webp") no-repeat center center/cover; 
     color: #fff;
@@ -189,10 +187,6 @@ i,
     #map {
     min-height: 33vh;
     margin-bottom: 3rem;
-    }
-
-    #register {
-        min-height: 80vh;
     }
 }
 
