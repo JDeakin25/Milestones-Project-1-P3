@@ -52,6 +52,7 @@ p {
     font-weight: 800;
 }
 
+
 /* Navbar */
 #navbar {
     background-color: #fff; /* added to remove navbar transparency */
@@ -171,7 +172,7 @@ i,
 /* Medium devices (tablets, up to 767px) */
 @media screen and (max-width: 767px) {
     #hero-text-title {
-        font-size: 3.5rem;
+        font-size: 4rem;
     }
     
     #register {
@@ -181,6 +182,13 @@ i,
 
 /* Small devices (mobiles, up to 470px) */
 @media screen and (max-width: 470px) {
+    #hero-text-title {
+        font-size: 3rem;
+    }
+}
+
+/* V. Small devices (mobiles, up to 360px) */
+@media screen and (max-width: 360px) {
     #hero-text-title {
         font-size: 2.6rem;
     }
