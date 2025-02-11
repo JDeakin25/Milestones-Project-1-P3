@@ -69,11 +69,11 @@ p {
 #hero-row {
     width: 40vw;
 }
-#hero-text {
+.hero-text {
     backdrop-filter: blur(20px); /* blurs image behind container to add to contrast of text and image */
-    padding: 1.5rem;
+    padding: 0.5rem;
     border: 2px solid #fff;
-    border-radius: 50px;
+    border-radius: 20px;
     text-shadow: 2px 2px #00000094;
     box-shadow: 10px 10px 20px #000000a5;
 }
@@ -83,16 +83,11 @@ p {
 }
 #hero-text-title {
     line-height: 1;
-    padding-bottom: 2rem;
+    text-shadow: 2px 2px #00000094;
 }
-
 #hero-text-details {
     font-weight: 600;
-    font-size: 1.5rem;
-}
-
-#hero-buttons {
-    text-shadow: none;
+    font-size: 1.25rem;
 }
 
 /* CTA - Socials */
