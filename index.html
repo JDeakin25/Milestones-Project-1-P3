@@ -69,7 +69,7 @@
               <a class="nav-link" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
-              <a href="#register" class="btn btn-primary">Register</a>
+              <a href="#register" class="btn btn-primary btn-c">Register</a>
             </li>
           </ul>
         </div>
@@ -650,11 +650,11 @@
       </section>
 
       <!-- Registration -->
-      <section id="register" class="container-fluid section d-flex align-items-center justify-content-center "> <!-- enables container content to be positioned centrally -->
+      <section id="register" class="container-fluid section d-flex align-items-center justify-content-center"> <!-- enables container content to be positioned centrally -->
         <div id="reg-row" class="row">
 
           <!-- Title and Form -->
-          <h2 class="display-3 mb-5 text-center"><i class="fa-solid fa-clipboard-list"></i>Registration</h2>
+          <h2 class="display-3 mb-4 text-center"><i class="fa-solid fa-clipboard-list"></i>Registration</h2>
           <div class="row" id="reg-form">
             <div class="col-12">
             <p class="mb-5">Don't miss out on Pontypool Party in the Park! Register now via our online form for updates, exclusive offers, and a chance to win prizes.</p>
@@ -1015,10 +1015,11 @@
       src="https://kit.fontawesome.com/63abbdb951.js"
       crossorigin="anonymous"></script>
 
-    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links - courtesy of Code Institute "Boardwalk Games" tutorial -->
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links 
+     - courtesy of Code Institute "Boardwalk Games" tutorial (included update to also apply to nav button) -->
     <script>
       document
-        .querySelectorAll(".navbar-collapse .nav-link")
+        .querySelectorAll(".navbar-collapse .nav-link, .btn-c")
         .forEach((link) => {
           link.addEventListener("click", function (e) {
             let section = document.querySelector(e.target.getAttribute("href"));

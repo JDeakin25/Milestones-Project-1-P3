@@ -155,27 +155,32 @@ i,
 }
 
 /* Media Queries */
-/* Small devices (mobiles, up to 470px) */
-@media screen and (max-width: 470px) {
-    #hero-text-title {
-        font-size: 3rem;
+
+/* Large devices (laptops, up to 1200px) */
+@media screen and (max-width: 1200px) {
+    #hero-row,
+    #reg-row {
+        width: 75vw;
+    }
+    .card-p {
+        margin-bottom: 3rem;
     }
 }
 
 /* Medium devices (tablets, up to 767px) */
 @media screen and (max-width: 767px) {
-    #hero-row {
-        width: 75vw;
+    #hero-text-title {
+        font-size: 3.5rem;
+    }
+    
+    #register {
+        min-height: 70vh;
     }
 }
 
-/* Large devices (laptops, up to 1200px) */
-@media screen and (max-width: 1200px) {
-    #hero-row {
-        width: 75vw;
-    }
-
-    .card-p {
-        margin-bottom: 3rem;
+/* Small devices (mobiles, up to 470px) */
+@media screen and (max-width: 470px) {
+    #hero-text-title {
+        font-size: 2.6rem;
     }
 }
