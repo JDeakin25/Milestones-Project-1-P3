@@ -104,6 +104,16 @@ i,
 #cta-social-text {
     margin-right: 1rem;
 }
+/* Entertainment */
+#entertainment {
+    min-height: 82vh;
+    background: url("../images/ent-background.webp") no-repeat center center/cover; 
+}
+
+#ent-row {
+    background-color: #fff;
+}
+
 
 /* Food & Drink */
 #food-drink,
