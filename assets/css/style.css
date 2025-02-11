@@ -5,9 +5,16 @@
 :root {
     --primary-font: "Zain", sans-serif;
     --secondary-font: "Bagel Fat One", sans-serif;
+    --primary-color: #a7c4bc; /* pale green */
+    --secondary-color: #e07a5f; /* terracotta */
+    --accent-color: #87ceeb; /* sky blue */
 }
 
 /* Global Styles */
+body {
+    background-color: #e7e7e7;
+}
+
 body,
 h4 {
     font-family: var(--primary-font);
@@ -32,15 +39,16 @@ p {
     line-height: 1.2;
 }
 
-.section,
-.section-p, 
-.cta {
-    border: 2px solid blue;
-    background-color: grey;
+footer {
+    background-color: var(--primary-color);
 }
 
-.section-p {
+.section {
     padding-top: 56px;
+}
+
+.section-np {
+    padding-top: 0;
 }
 
 .cta {
@@ -55,12 +63,12 @@ p {
 
 /* Navbar */
 #navbar {
-    background-color: #fff; /* added to remove navbar transparency */
+    background-color: var(--primary-color);
 }
 
 /* Hero Section */
 #hero {
-    min-height: 83vh;
+    min-height: 85vh;
     width: 100%;
     background: url("../images/hero-background.webp") no-repeat center center/cover; /* ensures image does not repeat, is centralised and spans full width */
     color: #fff;
@@ -70,7 +78,7 @@ p {
     width: 40vw;
 }
 .hero-text {
-    backdrop-filter: blur(20px); /* blurs image behind container to add to contrast of text and image */
+    backdrop-filter: blur(10px); /* blurs image behind container to add to contrast of text and image */
     padding: 0.5rem;
     border: 2px solid #fff;
     border-radius: 20px;
@@ -82,8 +90,8 @@ p {
     font-size: 1.25rem;
 }
 #hero-text-title {
-    line-height: 1;
     text-shadow: 2px 2px #00000094;
+    line-height: 1;
 }
 #hero-text-details {
     font-weight: 600;
@@ -118,14 +126,9 @@ i,
     height: auto;
 }
 
-/* Contact / Social Media */
-.icon-lrg {
-    font-size: 3rem;
-}
-
 /* Registration */
 #register {
-    min-height: 60vh;
+    min-height: 80vh;
     width: 100%;
     background: url("../images/reg-background.webp") no-repeat center center/cover; 
     color: #fff;
@@ -133,16 +136,30 @@ i,
 
 #reg-row {
     box-shadow: 10px 10px 20px #000000a5;
-    padding: 1rem;
+    padding: 0.5rem;
     width: 60vw;
     backdrop-filter: blur(20px);
     border: 2px solid #fff;
     border-radius: 50px;
 }
 
+#reg-form {
+    width: 100%;
+}
+
 /* Travel */
 #map {
     min-height: 30vh;
+}
+
+/* Contact / Social Media */
+#faq,
+#contact {
+    padding-top: 56px;
+}
+
+.icon-lrg {
+    font-size: 3rem;
 }
 
 /* Media Queries */
@@ -162,6 +179,11 @@ i,
 @media screen and (max-width: 767px) {
     #hero-text-title {
         font-size: 4rem;
+    }
+
+    /* CTA - Socials */
+    #cta-social-text {
+        font-size: 1.25rem;;
     }
     /* Travel */
     #map {
