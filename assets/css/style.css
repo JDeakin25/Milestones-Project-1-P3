@@ -178,11 +178,6 @@ i,
     #register {
         min-height: 70vh;
     }
-
-    .fd-gs-content {
-        padding-left: 0;
-        padding-right: 0;
-    }
 }
 
 /* Small devices (mobiles, up to 470px) */
