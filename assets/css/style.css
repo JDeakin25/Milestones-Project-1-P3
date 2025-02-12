@@ -92,8 +92,13 @@ a {
     box-shadow: 0 3px 10px #00000043;
 }
 
-#navbarNav .nav-link {
-    font-size: 1.25rem;
+.navbar-brand {
+    font-weight: 700;
+}
+
+#navbarNav .nav-link,
+#navbarNav .btn {
+    font-size: 1.15rem;
 }
 
 /* Hero Section */
