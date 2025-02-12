@@ -50,6 +50,9 @@ footer {
     border-top: 3px solid var(--primary-color);
     border-bottom: 3px solid var(--primary-color);
 }
+.card {
+    border: 1px solid var(--accent-color);
+}
 .card-title {
     font-size: 2rem;
     font-weight: 800;
@@ -62,13 +65,11 @@ footer {
     color: #000;
     border: 1px solid var(--accent-color);
 }
-
 .btn-primary:hover {
     background-color: #e7e7e7;
     border: 1px solid var(--accent-color);
     color: #000;
 }
-
 a {
     color: var(--accent-color)
 }
@@ -99,7 +100,7 @@ a {
 #hero-row {
     backdrop-filter: blur(10px); /* blurs image behind container to add to contrast of text and image */
     padding: 0.5rem;
-    border: 2px solid #fff;
+    border: 5px solid var(--primary-color);
     border-radius: 20px;
     box-shadow: 10px 10px 20px #000000a5;
     width: 40vw;
@@ -136,8 +137,9 @@ i,
 }
 
 #ent-row {
-    background-color: #fff;
+    background-color: var(--background-color);
     border-radius: 7px;
+    border: 5px solid var(--primary-color);
 }
 
 /* Food & Drink */
@@ -148,7 +150,7 @@ i,
 
 /* Tabbed elements */
 .nav-tabs .nav-link.active {
-    background-color: var(--primary-color) !important;
+    background-color: var(--primary-color) !important; /* ensures css takes priority */
 }
 
 .nav-tabs .nav-link {
@@ -170,7 +172,7 @@ i,
     padding: 0.5rem;
     width: 60vw;
     backdrop-filter: blur(20px);
-    border: 2px solid #fff;
+    border: 5px solid var(--primary-color);
     border-radius: 50px;
 }
 
@@ -181,6 +183,9 @@ i,
 /* Travel */
 #map {
     min-height: 30vh;
+    padding: 0;
+    border: 5px solid var(--primary-color);
+    border-radius: 10px;
 }
 /* FAQ */
 
