@@ -89,6 +89,7 @@ a {
 /* Navbar */
 #navbar {
     background-color: var(--primary-color);
+    box-shadow: 0 3px 10px #00000043;
 }
 
 /* Hero Section */
@@ -157,6 +158,7 @@ i,
 .nav-tabs .nav-link {
     border: 1px solid var(--primary-color);
     background-color: #fff;
+    color: var(--accent-color);
 }
 
 /* Registration */
