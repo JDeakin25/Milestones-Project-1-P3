@@ -11,49 +11,38 @@
     --background-color: #e7e7e7; /* off white */
 }
 
-
-
 /* Global Styles */
 body {
     background-color: var(--background-color)
 }
-
 body,
 h4 {
     font-family: var(--primary-font);
 }
-
 h1,
 h2,
 h3 {
     font-family: var(--secondary-font);
 }
-
 h1 {
     font-size: 5rem;
 }
-
 h4 {
     font-weight: 600;
 }
-
 p {
     font-size: 1.3rem;
     line-height: 1.2;
 }
-
 footer {
     background-color: var(--primary-color);
 }
-
 .section {
     padding-top: 56px;
 }
-
 .section-np {
     padding-top: 0;
 }
-
 .cta {
     min-height: 3rem;
     background-color: #fff;
@@ -61,24 +50,22 @@ footer {
     border-top: 3px solid var(--primary-color);
     border-bottom: 3px solid var(--primary-color);
 }
-
 .card-title {
     font-size: 2rem;
     font-weight: 800;
 }
-
 .card-body {
     background-color: var(--primary-color);
 }
-
 .btn-primary {
     background-color: var(--secondary-color);
     color: #000;
+    border: 1px solid var(--accent-color);
 }
 
 .btn-primary:hover {
     background-color: #e7e7e7;
-    border: 2px solid var(--accent-color);
+    border: 1px solid var(--accent-color);
     color: #000;
 }
 
