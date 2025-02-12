@@ -6,13 +6,16 @@
     --primary-font: "Zain", sans-serif;
     --secondary-font: "Bagel Fat One", sans-serif;
     --primary-color: #a7c4bc; /* pale green */
-    --secondary-color: #e07a5f; /* terracotta */
-    --accent-color: #87ceeb; /* sky blue */
+    --secondary-color: #cfe2ff; /* sky blue */
+    --accent-color: #551E11 ; /* dark terracotta */
+    --background-color: #e7e7e7; /* off white */
 }
+
+
 
 /* Global Styles */
 body {
-    background-color: #e7e7e7;
+    background-color: var(--background-color)
 }
 
 body,
@@ -53,6 +56,10 @@ footer {
 
 .cta {
     min-height: 3rem;
+    background-color: #fff;
+    padding: 10px;
+    border-top: 3px solid var(--primary-color);
+    border-bottom: 3px solid var(--primary-color);
 }
 
 .card-title {
@@ -60,6 +67,24 @@ footer {
     font-weight: 800;
 }
 
+.card-body {
+    background-color: var(--primary-color);
+}
+
+.btn-primary {
+    background-color: var(--secondary-color);
+    color: #000;
+}
+
+.btn-primary:hover {
+    background-color: #e7e7e7;
+    border: 2px solid var(--accent-color);
+    color: #000;
+}
+
+a {
+    color: var(--accent-color)
+}
 
 /* Navbar */
 #navbar {
@@ -79,13 +104,13 @@ footer {
     padding: 0.5rem;
     border: 2px solid #fff;
     border-radius: 20px;
-    text-shadow: 2px 2px #00000094;
     box-shadow: 10px 10px 20px #000000a5;
     width: 40vw;
 }
 #hero-text-intro {
     font-style: italic;
     font-size: 1.25rem;
+    text-shadow: 2px 2px #00000094;
 }
 #hero-text-title {
     text-shadow: 2px 2px #00000094;
@@ -124,6 +149,16 @@ i,
     height: auto;
 }
 
+/* Tabbed elements */
+.nav-tabs .nav-link.active {
+    background-color: var(--primary-color) !important;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid var(--primary-color);
+    background-color: #fff;
+}
+
 /* Registration */
 #register {
     min-height: 100vh;
@@ -149,7 +184,11 @@ i,
 #map {
     min-height: 30vh;
 }
+/* FAQ */
 
+.accordion-button {
+    background-color: var(--secondary-color);
+}
 /* Contact / Social Media */
 #faq,
 #contact {
