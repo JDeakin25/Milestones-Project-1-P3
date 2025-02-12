@@ -92,6 +92,10 @@ a {
     box-shadow: 0 3px 10px #00000043;
 }
 
+#navbarNav .nav-link {
+    font-size: 1.25rem;
+}
+
 /* Hero Section */
 #hero {
     min-height: 85vh;
