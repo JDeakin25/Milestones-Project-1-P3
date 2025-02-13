@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
 
@@ -82,7 +89,8 @@ a {
 /* Navbar */
 #navbar {
     background-color: var(--primary-color);
-    box-shadow: 0 3px 10px #00000043;
+    -webkit-box-shadow: 0 3px 10px #00000043;
+            box-shadow: 0 3px 10px #00000043;
 }
 
 .navbar-brand {
@@ -103,11 +111,13 @@ a {
 }
 
 #hero-row {
-    backdrop-filter: blur(10px); /* blurs image behind container to add to contrast of text and image */
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px); /* blurs image behind container to add to contrast of text and image */
     padding: 0.5rem;
     border: 5px solid var(--primary-color);
     border-radius: 20px;
-    box-shadow: 10px 10px 20px #000000a5;
+    -webkit-box-shadow: 10px 10px 20px #000000a5;
+            box-shadow: 10px 10px 20px #000000a5;
     width: 40vw;
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -174,10 +184,12 @@ i,
 }
 
 #reg-row {
-    box-shadow: 10px 10px 20px #000000a5;
+    -webkit-box-shadow: 10px 10px 20px #000000a5;
+            box-shadow: 10px 10px 20px #000000a5;
     padding: 0.5rem;
     width: 60vw;
-    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
     border: 5px solid var(--primary-color);
     border-radius: 50px;
     background-color: rgba(0, 0, 0, 0.5);
