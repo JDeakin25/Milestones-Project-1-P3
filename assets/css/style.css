@@ -74,6 +74,10 @@ a {
     color: var(--accent-color)
 }
 
+.hidden-title {
+    display: none;
+}
+
 /* Navbar */
 #navbar {
     background-color: var(--primary-color);
@@ -120,13 +124,13 @@ a {
 }
 
 /* CTA - Socials */
-#cta-social-text,
+.cta-text,
 .icon {
     font-size: 1.5rem;
 }
 
 i,
-#cta-social-text {
+.cta-text {
     margin-right: 1rem;
 }
 
@@ -181,6 +185,12 @@ i,
 }
 
 /* Travel */
+
+/* iframe attributes added to css to mitigate html validation errors when using inline widht/height styles */
+iframe {
+    height: 100%;
+    width: 100%;
+}
 #map {
     min-height: 30vh;
     padding: 0;
