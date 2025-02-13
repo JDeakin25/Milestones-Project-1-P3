@@ -16,20 +16,21 @@ body {
     background-color: var(--background-color)
 }
 body,
+h3,
 h4 {
     font-family: var(--primary-font);
 }
 h1,
-h2,
-h3 {
+h2 {
     font-family: var(--secondary-font);
 }
 h1 {
     font-size: 5rem;
 }
-h4 {
+h3 {
     font-weight: 600;
 }
+
 p {
     font-size: 1.3rem;
     line-height: 1.2;
@@ -74,7 +75,7 @@ a {
     color: var(--accent-color)
 }
 
-.hidden-title {
+.hidden {
     display: none;
 }
 
@@ -108,6 +109,7 @@ a {
     border-radius: 20px;
     box-shadow: 10px 10px 20px #000000a5;
     width: 40vw;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 #hero-text-intro {
     font-style: italic;
@@ -178,6 +180,7 @@ i,
     backdrop-filter: blur(20px);
     border: 5px solid var(--primary-color);
     border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #reg-form {
