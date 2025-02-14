@@ -1,6 +1,6 @@
-# Pontypool Party in The Park (P3)
+# Pontypool Party in The Park
 
-<!-- Header image for mockups/landing page display -->
+![Site responsivity mockup graphic](docs/responsive-mockup.webp)
 
 ## ABOUT
 
@@ -575,7 +575,7 @@ To deploy this site please complete the following steps:
 
 1. Whilst logged in to GitHub select the "Milestones-Project-1-P3" option from the repository list.
 2. Select the "settings" link from the main navigation bar.
-3. Select the "pages" link form the left side menu.
+3. Select the "pages" link from the left side menu.
 4. Under the "build & deployment" menu, within the "branch" menu, select "Deploy from branch".
 5. Select "main" and "/root" options.
 6. Click "save".
