@@ -200,6 +200,7 @@ The main goal of this site is to attract potential attendees; to achieve this I 
 
 I made sure to include prompts relating to the event and location, to try and create an honest impression of the event that was not too misleading, despite being A.I generated. For the future development of this website, I plan to attend this event and take a wide selection of photographs that can then be used to replace the A.I generated images and offer site users a true reflection of this event.
 
+All images have been provided with 'alt' attributes to assist with screen-reader technologies.
 
 ### Wireframe Designs
 
@@ -262,6 +263,19 @@ To support the user experience I made use of various relevant Font Awesome icons
 I've made extensive use of the current Bootstrap Library (5.3) to assist with layout, spacing and components within the site. Due to the volume of information in the Food & Drink and Gifts & Stalls areas I chose to use the Tabs Bootstrap element. This made the user experience better when browsing all of the various details available on the supplier tab panels. I also made use of the Accordion Bootstrap element to help condense the content within the FAQs section, to again help create a positive site user experience.
 
 ## TESTING
+
+During the development process I made sure to refer back to my user stories and owner goals, ensuring the purpose of the site was in focus at all times. I made sure to review user stories and ensure any supporting facilities in place, such as anchor links and form submission buttons were all functioning as intended. Several friends and family members were invited to test the site and no issues were raised, except for preferences around the colour palette, which were taken into consideration. 
+
+When testing the forms all performed as expected during desktop device testing, however when testing on mobile devices using the Firefox browser the form does not prompt users to enter their details when submitting an empty form. Whilst the form does not submit with empty fields as intended, the issue of not prompting the user formally to complete all fields will be addressed in future development.
+
+Browser compatibility tests were carried out using and showed no issues or errors:
+
+- Chrome
+- Firefox
+- Safari
+- DuckDuckGo
+
+When assessing the site against formal criteria I have achieved the following results detailed in the tables below:
 
 ### User Stories
 
@@ -524,18 +538,48 @@ I've made extensive use of the current Bootstrap Library (5.3) to assist with la
 
 ### Validation
 
+All site pages have been validated using the [https://validator.w3.org/](https://validator.w3.org/) tool. During initial testing I found that using multiple Bootstrap assets had created errors in the overall code by duplicating certain element ids. To fix this I made sure to update any offending duplicates. Several small errors in code syntax were also remedied and now the site HTML code shows no errors.
+
+The CSS style sheet has been validated using the [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/) tool and no errors were found.
+
+For accessibility purposes and to support screen-readers I used a WAVE Evaluation Tool browser plugin provided by [WebAIM](https://webaim.org/) to evaluate the site for aria-compliance. Initial tests showed several errors relating to aria-labelling of icons and also in relation to semantic heading ordering. Following the use of this tool I identified the errors in accessibility and all have been corrected. There are currently six alerts relating to pdf documents available within the site. Aria labels were added but this did not fix the issue, as it relates to screen-reader compatibility with the pdf file type. Future development of this site will look to address this area.
+
+![WAVE Evaluation Tool Report](docs/accessibility-report.webp)
+
 ### Lighthouse Reports
 
+During initial Lighthouse Report testing I received low scores relating to the previous issue of missing aria-labels and also in relation to performance. To fix the accessibility issues all aria-labelling errors were corrected using the WebAIM tool. To improve performance I chose to export new versions of my images, reducing their sizes by 50%. The images had originally been exported via Adobe Photoshop in WebP format at a 74% level of quality to ensure optimum loading times along with maintaining a high quality of picture. The original exports proved to be excessively large for their intended placements and by reducing their sizes to more reasonable values I helped to improve the performance and loading times of the site. 
+
+The main hero image was also rather large at around 900kb; so to improve performance with this section I reduced the file size but also created versions for alternative screensizes. I maintained the aspect ratio of the original Hero background image but scaled down the size to suit tablets and mobile devices. Using Media Queries in my CSS style sheet I made sure the relevant size Hero image was loaded depending on what size screen is viewing the site, helping again to improve the Lighthouse Report scores. The desktop scores are positive, however future development will require focus on improving mobile device scores.
+
+The final LightHouse Report scores are shown below:
+#### Desktop Lighthouse Report Score
+![Desktop Lighthouse Report Score](docs/lhr-d.webp)
+#### Mobile Lighthouse Report Score
+![Mobile device Lighthouse Report Score](docs/lhr-m.webp)
 
 ## DE-BUGGING
 
 ### Developer Console Tools
 
+When testing the site during and after development I made extensive use of the Developer Tools Console within my browser, helping to identify any unexpected outcomes to the code in place. One particular bug that came up involved the main Navbar element width extending beyond the width of the Body element. To be able to identify which section or element within the page code was causing the error I removed each section individually and refreshing the site to see if the problem resolved. Eventually I worked out that the error was coming from a section where I had removed the default padding attribute from certain Bootstrap elements via custom CSS. Once the instances of padding="0" were removed the site structure reverted to it's original design. Another issue I found through testing is with the form width contained within the Registration section - the form does not correctly span the full width of the container despite using the "col-12" Bootstrap class. This will be explored and rectified through future development.
+
 
 ## DEPLOYMENT
 
+This site was created using Visual Code Studio and deployed to GitHub pages. 
+
 ### GITHUB Pages
 
+To deploy this site please complete the following steps:
+
+1. Whilst logged in to GitHub select the "Milestones-Project-1-P3" option from the repository list.
+2. Select the "settings" link from the main navigation bar.
+3. Select the "pages" link form the left side menu.
+4. Under the "build & deployment" menu, within the "branch" menu, select "Deploy from branch".
+5. Select "main" and "/root" options.
+6. Click "save".
+7. Once the project has deployed you will have the option to visit the site via clicking the URL at the top of the page.
 
 ## CREDITS
 
