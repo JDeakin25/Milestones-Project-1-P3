@@ -106,7 +106,7 @@ a {
 #hero {
     min-height: 85vh;
     width: 100%;
-    background: url("../images/hero-background.webp") no-repeat center center/cover; /* ensures image does not repeat, is centralised and spans full width */
+    background: url("../images/hero-background-m.webp") no-repeat center center/cover;  /* ensures image does not repeat, is centralised and spans full width */
     color: #fff;
 }
 
@@ -236,6 +236,13 @@ iframe {
 
 /* Media Queries */
 
+/* XL devices (desktops, above 1201px) */
+@media screen and (min-width: 1201px) {
+    #hero {
+        background: url("../images/hero-background.webp") no-repeat center center/cover; /* alternative hero image for larger devices */
+    }
+}
+
 /* Large devices (laptops, up to 1200px) */
 @media screen and (max-width: 1200px) {
     #hero {
@@ -253,9 +260,6 @@ iframe {
 
 /* Medium devices (tablets, up to 767px) */
 @media screen and (max-width: 767px) {
-    #hero {
-        background: url("../images/hero-background-m.webp") no-repeat center center/cover; /* alternative hero image for smaller devices */
-    } 
     #hero-text-title {
         font-size: 4rem;
     }
