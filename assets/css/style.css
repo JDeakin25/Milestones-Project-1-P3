@@ -227,6 +227,13 @@ iframe {
     font-size: 3rem;
 }
 
+/* Footer Logos */
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
 /* Media Queries */
 
 /* Large devices (laptops, up to 1200px) */
