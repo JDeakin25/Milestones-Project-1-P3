@@ -32,10 +32,9 @@ Pontypool Party in the Park is an annual event held for the benefit of the local
   * [Bootstrap Libraries](#bootstrap-libraries)
 
 ### 6. [Testing](#testing)
-  * [Navigation](#navigation) - nav, anchor and social links
-  * [Buttons](#buttons)
-  * [Forms](#forms) - registration and success
   * [User Stories](#user-stories-1) compared to User Experience
+  * [Main Home Page](#main-home-page-tests) - nav, anchor and social links
+  * [Success Pages](#success-pages-tests) - nav, anchor and social links
   * [Validation](#validation) - Use HTML and CSS validation for all site pages
   * [Lighthouse Reports](#lighthouse-reports) - via Google Chrome
 
@@ -175,7 +174,12 @@ Pontypool Community Council are the intended site owners and will expect clarity
 
 ### Colour Palettes
 
+![Color Palette graphic](docs/color-palette.webp)
+
 ### Typography
+
+![Primary Font example graphic](docs/font-primary.webp)  
+![Secondary Font example graphic](docs/font-secondary.webp)
 
 ### Images
 
@@ -209,13 +213,264 @@ Pontypool Community Council are the intended site owners and will expect clarity
 
 ## TESTING
 
-### Navigation
-
-### Buttons
-
-### Forms
-
 ### User Stories
+
+| User Story                                                                                                                                                                                                                                                               | Aim                                                                                                                                                                                                                                                                                                                    | Outcome                                                                                                                                                                                                                                                                                                                                  | Result                                              |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| I need a user-friendly design that is responsive and laid out effectively,<br>so I can easily find the core information I require to make an informed<br>decision on attendance.                                                                                         | The website is responsive and laid out intuitively, with core information<br>presented as a priority                                                                                                                                                                                                                   | On loading the site, the pages are responsive to all screen<br>sizes and vital information about the event is presented in<br>the first Hero section. Subsequent sections follow a priority<br>based on what aspects of the event would draw in attendees<br>most, being Entertainment, then Food & Drink, then Gifts<br>and Stalls etc. | PASS                                                |
+| I need clear and attractive images along with written content to support<br>said images which accurately depict the environment and atmosphere of<br>the event, so I can make a qualified decision on attendance.                                                        | Images are reflective of the event and relevant sections/areas include<br>supporting text to accompany images                                                                                                                                                                                                          | All images relate directly to their location on the site and their<br>accompanying text. Images have been produced to be high<br>quality whilst using appropriate compression via the WebP<br>file format to help with loading times.                                                                                                    | PASS                                                |
+| I need to be able to quickly and easily find important event information<br>such as date, location and cost, to be able to decide on attendance.                                                                                                                         | Important event information is presented immediately upon site load, and<br>is supported with an intuitive navigation bar that is fixed, helping users<br>access important information within the 3-click rule                                                                                                         | The main Hero section contains important event information and is<br>the first section that is presented to site users. The navigation bar is<br>fixed and allows users to browse to key areas on the page<br>with ease.                                                                                                                 | PASS                                                |
+| I want to learn about the entertainment acts and food/gift stalls that will<br>be available during the event, to help decide on attendance and whether<br>the event is suitable.                                                                                         | Motivational text and image content regarding Entertainment and Food &<br>Drink / Gifts & Stalls are included in specific sections, linked to by the<br>main nav bar                                                                                                                                                   | Entertainment and Food & Drink / Gifts & Stalls sections are<br>present and supported with attractive images and relevant<br>text. Links to performer/supplier email and social media are<br>also present to provide users with further information about<br>these core aspects of the event.                                            | PASS                                                |
+| I'd like to be able to register minimal details with the event organisers<br>to ensure I am kept up to date on any news and incentives related to<br>the event, before attendance.                                                                                       | Registration section is included and only requires basic information,<br>such as name, email address and attendee type. All fields in this form<br>are required for consistency of data capture. Upon submission site<br>users are greeted with a Success page confirming a successful<br>submission of their details. | The registration form contains only First Name, Last Name, Email<br>and Attendee type fields, all are required, and the user is<br>redirected to the Success page upon successful submission.                                                                                                                                            | PASS                                                |
+| I'd appreciate information that confirms the availability of toilets,<br>handwashing facilities and health professionals to ensure our attendance<br>at the event is comfortable and safe. This information will help determine<br>the suitability to attend this event. | The facilities section is included, comprising of motivational text and image<br>content that relates to the subjects discussed in this section, reassuring<br>site users of the event's comfort and safety provisions.                                                                                                | The facilities section is present and supported with attractive<br>images and motivational text, providing necessary<br>reassurances to site users.                                                                                                                                                                                      | PASS                                                |
+| I would like to be able to see answers to common questions an event<br>attendee may ask before deciding on attendance.                                                                                                                                                   | FAQs section is included, comprising of descriptive and reassuring text<br>content that addresses common queries and concerns potential event<br>attendees may have.                                                                                                                                                   | FAQ section is present and includes necessary text content to<br>support and reassure potential attendees of queries and<br>concerns they may have.                                                                                                                                                                                      | PASS                                                |
+| I would like reassurance that the event is a 'safe space' and inclusive for<br>all cultural and social demographics, is non-discriminatory and has<br>resources available to support me should I need advice.                                                            | Information is provided that promotes the event's inclusive attitude<br>and reassures potential attendees of the resources and support available<br>at the event.                                                                                                                                                      | An Inclusivity panel is present within the FAQs section,<br>providing the reassurance site users are looking for and<br>also detailing resources and support available at the event.                                                                                                                                                     | PASS                                                |
+| I would like to know about which charities are being supported by the<br>event and how I may be able to contribute, to help support important<br>initiatives and positive change.                                                                                        | Information is provided that details the charity support offered by the<br>event and explains how event attendees can offer their own support.                                                                                                                                                                         | A Charities panel is present within the FAQs section, offering<br>details on how the event supports local charities and offers<br>information for event attendees to offer their own support.                                                                                                                                            | PASS<br>(\* specific charities were not referenced) |
+| I would like to know about what opportunities there are available to<br>support the event in achieving its financial targets, with the goal<br>of promoting my business and gaining traction in the local areas of<br>commerce.                                          | Information is provided that details and promotes the opportunities<br>available for businesses to offer sponsorship to the event.                                                                                                                                                                                     | A Sponsorship panel is present within the FAQs section,<br>offering details and incentives for businesses to offer<br>sponsorship to the event.                                                                                                                                                                                          | PASS                                                |
+
+### Main Home Page Tests
+
+#### NAVBAR
+
+| Location / Feature | Aim                                                         | Test                    | Outcome                            | Result |
+| ------------------ | ----------------------------------------------------------- | ----------------------- | ---------------------------------- | ------ |
+| Navbar             | Site title redirects users to home page                     | Tap site title          | Navigates to home page             | PASS   |
+|                    | HOME link redirects users to Hero section                   | Tap HOME link           | Navigates to Hero section          | PASS   |
+|                    | ENTERTAINMENT link redirects users to Entertainment section | Tap ENTERTAINMENT link  | Navigates to Entertainment section | PASS   |
+|                    | FOOD & DRINK link redirects users to Food & Drink area      | Tap FOOD & DRINK link   | Navigates to Food & Drink area     | PASS   |
+|                    | GIFTS & STALLS link redirects users to Gifts & Stalls area  | Tap GIFTS & STALLS link | Navigates to Gifts & Stalls area   | PASS   |
+|                    | FACILITIES link redirects users to Facilities section       | Tap FACILITIES link     | Navigates to Facilities section    | PASS   |
+|                    | TRAVEL link redirects users to Travel section               | Tap FACILITIES link     | Navigates to Travel section        | PASS   |
+|                    | FAQs link redirects users to FAQs area                      | Tap FAQs link           | Navigates to FAQs area             | PASS   |
+|                    | CONTACT link redirects users to Contact Us area             | Tap CONTACT link        | Navigates to Contact Us area       | PASS   |
+|                    | REGISTER button redirects users to Registration section     | Tap REGISTER button     | Navigates to Registration section  | PASS   |  
+
+#### HERO Section  
+
+| Location / Feature | Aim                                                       | Test                 | Outcome                            | Result |
+| ------------------ | --------------------------------------------------------- | -------------------- | ---------------------------------- | ------ |
+| Hero Section       | WHAT'S ON button redirects users to Entertainment section | Tap WHAT'S ON button | Navigates to Entertainment section | PASS   |
+|                    | REGISTER button redirects users to Registration section   | Tap REGISTER button  | Navigates to Registration section  | PASS   |
+|                    | CONTACT button redirects users to Contact area            | Tap CONTACT button   | Navigates to Contact area          | PASS   |
+
+#### INTRO Section  
+
+| Location / Feature | Aim                                                                         | Test                                  | Outcome                             | Result |
+| ------------------ | --------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------- | ------ |
+| Intro Section      | EXPLORE OUR ENTERTAINMENT button redirects users to Entertainment section   | Tap EXPLORE OUR ENTERTAINMENT button  | Navigates to Entertainment section  | PASS   |
+|                    | EXPLORE OUR FOOD & DRINK button redirects users to Food & Drink section     | Tap EXPLORE OUR FOOD & DRINK button   | Navigates to Food & Drink section   | PASS   |
+|                    | EXPLORE OUR GIFTS & STALLS button redirects users to Gifts & Stalls section | Tap EXPLORE OUR GIFTS & STALLS button | Navigates to Gifts & Stalls section | PASS   |
+|                    | EXPLORE OUR FACILITIES button redirects users to Facilities section         | Tap FACILITIES button                 | Navigates to Facilities section     | PASS   |  
+
+#### CTA - Social Media
+
+| Location / Feature | Aim                                                              | Test               | Outcome                                                | Result |
+| ------------------ | ---------------------------------------------------------------- | ------------------ | ------------------------------------------------------ | ------ |
+| CTA - Social Media | Facebook Icon links to organiser's Facebook page in separate tab | Tap Facebook Icon  | Navigates to organiser's Facebook page in separate tab | PASS   |
+|                    | Twitter/X Icon links to Twitter/X page in separate tab           | Tap Twitter/X Icon | Navigates to Twitter/X page in separate tab            | PASS   |
+|                    | Instagram Icon links to Instagram page in separate tab           | Tap Instagram Icon | Navigates to Instagram page in separate tab            | PASS   |
+
+#### ENTERTAINMENT Section  
+
+| Location / Feature    | Aim                                                                                    | Test               | Outcome                                                 | Result |
+| --------------------- | -------------------------------------------------------------------------------------- | ------------------ | ------------------------------------------------------- | ------ |
+| Entertainment Section | GLC Card Facebook Icon links to performer's Facebook page in separate tab              | Tap Facebook Icon  | Navigates to performer's Facebook page in separate tab  | PASS   |
+|                       | GLC Card Twitter/X Icon links to performer's Twitter/X page in separate tab            | Tap Twitter/X Icon | Navigates to performer's Twitter/X page in separate tab | PASS   |
+|                       | GLC Card Instagram Icon links to performer's Instagram page in separate tab            | Tap Instagram Icon | Navigates to performer's Instagram page in separate tab | PASS   |
+|                       | GLC Card YouTube Icon links to performer's YouTube page in separate tab                | Tap YouTube Icon   | Navigates to performer's YouTube page in separate tab   | PASS   |
+|                       |                                                                                        |                    |                                                         |        |
+|                       | Stereophonics Card Facebook Icon links to performer's Facebook page in separate tab    | Tap Facebook Icon  | Navigates to performer's Facebook page in separate tab  | PASS   |
+|                       | Stereophonics Card Twitter/X Icon links to performer's Twitter/X page in separate tab  | Tap Twitter/X Icon | Navigates to performer's Twitter/X page in separate tab | PASS   |
+|                       | Stereophonics Card Instagram Icon links to performer's Instagram page in separate tab  | Tap Instagram Icon | Navigates to performer's Instagram page in separate tab | PASS   |
+|                       | Stereophonics Card YouTube Icon links to performer's YouTube page in separate tab      | Tap YouTube Icon   | Navigates to performer's YouTube page in separate tab   | PASS   |
+|                       |                                                                                        |                    |                                                         |        |
+|                       | Cerys Matthews Card Facebook Icon links to performer's Facebook page in separate tab   | Tap Facebook Icon  | Navigates to performer's Facebook page in separate tab  | PASS   |
+|                       | Cerys Matthews Card Twitter/X Icon links to performer's Twitter/X page in separate tab | Tap Twitter/X Icon | Navigates to performer's Twitter/X page in separate tab | PASS   |
+|                       | Cerys Matthews Card Instagram Icon links to performer's Instagram page in separate tab | Tap Instagram Icon | Navigates to performer's Instagram page in separate tab | PASS   |
+|                       | Cerys Matthews Card YouTube Icon links to performer's YouTube page in separate tab     | Tap YouTube Icon   | Navigates to performer's YouTube page in separate tab   | PASS   |
+|                       |                                                                                        |                    |                                                         |        |
+|                       | Ruth Jones Card Facebook Icon links to performer's Facebook page in separate tab       | Tap Facebook Icon  | Navigates to performer's Facebook page in separate tab  | PASS   |
+|                       | Ruth Jones Card Twitter/X Icon links to performer's Twitter/X page in separate tab     | Tap Twitter/X Icon | Navigates to performer's Twitter/X page in separate tab | PASS   |
+|                       | Ruth Jones Card Instagram Icon links to performer's Instagram page in separate tab     | Tap Instagram Icon | Navigates to performer's Instagram page in separate tab | PASS   |
+
+#### CTA - Register as attendee
+
+| Location / Feature         | Aim                                                     | Test                | Outcome                           | Result |
+| -------------------------- | ------------------------------------------------------- | ------------------- | --------------------------------- | ------ |
+| CTA - Register as attendee | REGISTER button redirects users to Registration section | Tap REGISTER button | Navigates to Registration section | PASS   |
+
+#### FOOD & DRINK Area
+
+| Location / Feature   | Aim                                                                                 | Test                     | Outcome                                               | Result |
+| -------------------- | ----------------------------------------------------------------------------------- | ------------------------ | ----------------------------------------------------- | ------ |
+| Food & Drink Area    | Ponty Pies tab opens Ponty Pies tab panel                                           | Tap Ponty Pies tab       | Opens Ponty Pies tab panel                            | PASS   |
+|                      | Ponty Pies Tab Email Icon opens new email message window                            | Tap Email Icon           | Opens new email message window                        | PASS   |
+|                      | Ponty Pies Tab Facebook Icon links to supplier's Facebook page in separate tab      | Tap Facebook Icon        | Navigates to supplier's Facebook page in separate tab | PASS   |
+|                      | Ponty Pies Tab Twitter/X Icon links to Twitter/X in separate tab                    | Tap Twitter/X Icon       | Navigates to Twitter/X in separate tab                | PASS   |
+|                      | Ponty Pies Tab Instagram Icon links to Instagram in separate tab                    | Tap Instagram Icon       | Navigates to Instagram in separate tab                | PASS   |
+|                      | Ponty Pies Tab YouTube Icon links to YouTube in separate tab                        | Tap YouTube Icon         | Navigates to YouTube in separate tab                  | PASS   |
+|                      | Ponty Pies DOWNLOAD MENU button opens supplier menu in separate tab                 | Tap DOWNLOAD MENU button | Opens supplier menu in separate tab                   | PASS   |
+|                      |                                                                                     |                          |                                                       |        |
+|                      | Bangin' Burgers tab opens Bangin' Burgers tab panel                                 | Tap Bangin' Burgers tab  | Opens Bangin' Burgers tab panel                       | PASS   |
+|                      | Bangin' Burgers Tab Email Icon opens new email message window                       | Tap Email Icon           | Opens new email message window                        | PASS   |
+|                      | Bangin' Burgers Tab Facebook Icon links to supplier's Facebook page in separate tab | Tap Facebook Icon        | Navigates to supplier's Facebook page in separate tab | PASS   |
+|                      | Bangin' Burgers Tab Twitter/X Icon links to Twitter/X in separate tab               | Tap Twitter/X Icon       | Navigates to Twitter/X in separate tab                | PASS   |
+|                      | Bangin' Burgers Tab Instagram Icon links to Instagram in separate tab               | Tap Instagram Icon       | Navigates to Instagram in separate tab                | PASS   |
+|                      | Bangin' Burgers Tab YouTube Icon links to YouTube in separate tab                   | Tap YouTube Icon         | Navigates to YouTube in separate tab                  | PASS   |
+|                      | Bangin' Burgers DOWNLOAD MENU button opens supplier menu in separate tab            | Tap DOWNLOAD MENU button | Opens supplier menu in separate tab                   | PASS   |
+|                      |                                                                                     |                          |                                                       |        |
+|                      | Cheers Beers tab opens Cheers Beers tab panel                                       | Tap Cheers Beers tab     | Opens Cheers Beers tab panel                          | PASS   |
+|                      | Cheers Beers Tab Email Icon opens new email message window                          | Tap Email Icon           | Opens new email message window                        | PASS   |
+|                      | Cheers Beers Tab Facebook Icon links to supplier's Facebook page in separate tab    | Tap Facebook Icon        | Navigates to supplier's Facebook page in separate tab | PASS   |
+|                      | Cheers Beers Tab Twitter/X Icon links to Twitter/X in separate tab                  | Tap Twitter/X Icon       | Navigates to Twitter/X in separate tab                | PASS   |
+|                      | Cheers Beers Tab Instagram Icon links to Instagram in separate tab                  | Tap Instagram Icon       | Navigates to Instagram in separate tab                | PASS   |
+|                      | Cheers Beers Tab YouTube Icon links to YouTube in separate tab                      | Tap YouTube Icon         | Navigates to YouTube in separate tab                  | PASS   |
+|                      | Cheers Beers DOWNLOAD MENU button opens supplier menu in separate tab               | Tap DOWNLOAD MENU button | Opens supplier menu in separate tab                   | PASS   |
+
+#### GIFTS & STALLS Area
+
+| Location / Feature     | Aim                                                                                | Test                   | Outcome                                               | Result |
+| ---------------------- | ---------------------------------------------------------------------------------- | ---------------------- | ----------------------------------------------------- | ------ |
+| Gifts & Stalls Area    | Gorgeous Gifts tab opens Gorgeous Gifts tab panel                                  | Tap Gorgeous Gifts tab | Opens Gorgeous Gifts tab panel                        | PASS   |
+|                        | Gorgeous Gifts Tab Email Icon opens new email message window                       | Tap Email Icon         | Opens new email message window                        | PASS   |
+|                        | Gorgeous Gifts Tab Facebook Icon links to supplier's Facebook page in separate tab | Tap Facebook Icon      | Navigates to supplier's Facebook page in separate tab | PASS   |
+|                        | Gorgeous Gifts Tab Twitter/X Icon links to Twitter/X in separate tab               | Tap Twitter/X Icon     | Navigates to Twitter/X in separate tab                | PASS   |
+|                        | Gorgeous Gifts Tab Instagram Icon links to Instagram in separate tab               | Tap Instagram Icon     | Navigates to Instagram in separate tab                | PASS   |
+|                        | Gorgeous Gifts Tab YouTube Icon links to YouTube in separate tab                   | Tap YouTube Icon       | Navigates to YouTube in separate tab                  | PASS   |
+|                        |                                                                                    |                        |                                                       |        |
+|                        | LLL at Home tab opens LLL at Home tab panel                                        | Tap LLL at Home tab    | Opens LLL at Home tab panel                           | PASS   |
+|                        | LLL at Home Tab Email Icon opens new email message window                          | Tap Email Icon         | Opens new email message window                        | PASS   |
+|                        | LLL at Home Tab Facebook Icon links to supplier's Facebook page in separate tab    | Tap Facebook Icon      | Navigates to supplier's Facebook page in separate tab | PASS   |
+|                        | LLL at Home Tab Twitter/X Icon links to Twitter/X in separate tab                  | Tap Twitter/X Icon     | Navigates to Twitter/X in separate tab                | PASS   |
+|                        | LLL at Home Tab Instagram Icon links to Instagram in separate tab                  | Tap Instagram Icon     | Navigates to Instagram in separate tab                | PASS   |
+|                        | LLL at Home Tab YouTube Icon links to YouTube in separate tab                      | Tap YouTube Icon       | Navigates to YouTube in separate tab                  | PASS   |
+|                        |                                                                                    |                        |                                                       |        |
+|                        | Noam's Garden tab opens Noam's Garden tab panel                                    | Tap Noam's Garden tab  | Opens Noam's Garden tab panel                         | PASS   |
+|                        | Noam's Garden Tab Email Icon opens new email message window                        | Tap Email Icon         | Opens new email message window                        | PASS   |
+|                        | Noam's Garden Tab Facebook Icon links to supplier's Facebook page in separate tab  | Tap Facebook Icon      | Navigates to supplier's Facebook page in separate tab | PASS   |
+|                        | Noam's Garden Tab Twitter/X Icon links to Twitter/X in separate tab                | Tap Twitter/X Icon     | Navigates to Twitter/X in separate tab                | PASS   |
+|                        | Noam's Garden Tab Instagram Icon links to Instagram in separate tab                | Tap Instagram Icon     | Navigates to Instagram in separate tab                | PASS   |
+|                        | Noam's Garden Tab YouTube Icon links to YouTube in separate tab                    | Tap YouTube Icon       | Navigates to YouTube in separate tab                  | PASS   |
+
+#### CTA - Register as supplier
+
+| Location / Feature         | Aim                                                     | Test                | Outcome                           | Result |
+| -------------------------- | ------------------------------------------------------- | ------------------- | --------------------------------- | ------ |
+| CTA - Register as supplier | REGISTER button redirects users to Registration section | Tap REGISTER button | Navigates to Registration section | PASS   |
+
+#### REGISTRATION Form
+
+| Location / Feature | Aim                                                                | Test                                  | Outcome                                      | Result |
+| ------------------ | ------------------------------------------------------------------ | ------------------------------------- | -------------------------------------------- | ------ |
+| Registration Form  | First Name field is required and expects text content              | Submit form without First Name        | Form does not submit                         | PASS   |
+|                    | Last Name field is required and expects text content               | Submit form without Last Name         | Form does not submit                         | PASS   |
+|                    | Email address field is requried and expects email content          | Submit form without Email             | Form does not submit                         | PASS   |
+|                    |                                                                    | Submit form without @ symbol          | Form does not submit                         | PASS   |
+|                    | Register As field is required and expects an option to be selected | Submit form without selecting option  | Form does not submit                         | PASS   |
+|                    | Completed form redirects user to Success page                      | Submit form will all fields completed | Form submits, redirects user to Success page | PASS   |
+
+#### TRAVEL Section
+
+| Location / Feature | Aim                                                                                              | Test                                          | Outcome                                                | Result |
+| ------------------ | ------------------------------------------------------------------------------------------------ | --------------------------------------------- | ------------------------------------------------------ | ------ |
+| Travel Section     | "Route Plan with Google Maps" link opens Google Maps route planner in separate tab               | Tab "Route Plan with Google Maps" link        | Opens Google Maps route planner in separate tab        | PASS   |
+|                    | "Route Plan with Stagecoach Torfaen" link opens Stagecoach Torfaen route planner in separate tab | Tab "Route Plan with Stagecoach Torfaen" link | Opens Stagecoach Torfaen route planner in separate tab | PASS   |
+|                    | "Route Plan with The Trainline" link opens The Trainline route planner in separate tab           | Tab "Route Plan with The Trainline" link      | Opens The Trainline route planner in separate tab      | PASS   |
+
+#### FAQs Area
+
+| Location / Feature | Aim                                                              | Test                     | Outcome                                                | Result |
+| ------------------ | ---------------------------------------------------------------- | ------------------------ | ------------------------------------------------------ | ------ |
+| FAQs area          | ACCESSIBILITY accordion item opens Accessibility panel           | Tab ACCESSIBILITY item   | Opens Accessibility panel                              | PASS   |
+|                    | INCLUSIVITY accordion item opens Inclusivity panel               | Tab INCLUSIVITY item     | Opens Inclusivity panel                                | PASS   |
+|                    | NEURODIVERGENCE accordion item opens Neurodivergence panel       | Tab NEURODIVERGENCE item | Opens Neurodivergence panel                            | PASS   |
+|                    | CHILDREN'S ZONE accordion item opens Children's Zone panel       | Tab CHILDREN'S ZONE item | Opens Children's Zone panel                            | PASS   |
+|                    | CHARITY SUPPORT accordion item opens Charity Support panel       | Tab CHARITY SUPPORT item | Opens Charity Support panel                            | PASS   |
+|                    | SPONSORSHIP accordion item opens Sponsorship panel               | Tab SPONSORSHIP item     | Opens Sponsorship panel                                | PASS   |
+|                    |                                                                  |                          |                                                        |        |
+|                    | Facebook Icon links to organiser's Facebook page in separate tab | Tap Facebook Icon        | Navigates to organiser's Facebook page in separate tab | PASS   |
+|                    | Twitter/X Icon links to Twitter/X page in separate tab           | Tap Twitter/X Icon       | Navigates to Twitter/X page in separate tab            | PASS   |
+|                    | Instagram Icon links to Instagram page in separate tab           | Tap Instagram Icon       | Navigates to Instagram page in separate tab            | PASS   |
+
+#### CONTACT US Area
+
+| Location / Feature | Aim                                                                 | Test                                  | Outcome                                      | Result |
+| ------------------ | ------------------------------------------------------------------- | ------------------------------------- | -------------------------------------------- | ------ |
+| Contact Form       | First Name field is required and expects text content               | Submit form without First Name        | Form does not submit                         | PASS   |
+|                    | Last Name field is required and expects text content                | Submit form without Last Name         | Form does not submit                         | PASS   |
+|                    | Email address field is requried and expects email content           | Submit form without Email             | Form does not submit                         | PASS   |
+|                    |                                                                     | Submit form without @ symbol          | Form does not submit                         | PASS   |
+|                    | Enquiry Type field is required and expects an option to be selected | Submit form without selecting option  | Form does not submit                         | PASS   |
+|                    | Leave a message here field is required and expects text content     | Submit form without Message entry     | Form does not submit                         | PASS   |
+|                    | Completed form redirects user to Success page                       | Submit form will all fields completed | Form submits, redirects user to Success page | PASS   |
+
+#### FOOTER Section
+
+| Location / Feature | Aim                                                                        | Test                                 | Outcome                                              | Result |
+| ------------------ | -------------------------------------------------------------------------- | ------------------------------------ | ---------------------------------------------------- | ------ |
+| Footer             | Telephone number link opens new phonecall window with number pre-populated | Tap Telephone number                 | Opens new phonecall window with number pre-populated | PASS   |
+|                    | HOME anchor link re-directs to top Hero section                            | Tap HOME link                        | Redirects to top Hero section                        | PASS   |
+|                    | ENTERTAINMENT anchor link re-directs to Entertainment section              | Tap ENTERTAINMENT link               | Redirects to Entertainment section                   | PASS   |
+|                    | FOOD & DRINK anchor link re-directs to Food & Drink area                   | Tap FOOD & DRINK link                | Redirects to Food & Drink area                       | PASS   |
+|                    | GIFTS & STALLS anchor link re-directs to Gifts & Stalls area               | Tap GIFTS & STALLS link              | Redirects to Gifts & Stalls area                     | PASS   |
+|                    | FACILITIES anchor link re-directs to Facilities section                    | Tap FACILITIES link                  | Redirects to Facilities section                      | PASS   |
+|                    | REGISTER anchor link re-directs to Registration section                    | Tap REGISTER link                    | Redirects to Registration section                    | PASS   |
+|                    | TRAVEL anchor link re-directs to Travel section                            | Tap TRAVEL link                      | Redirects to Travel section                          | PASS   |
+|                    | FAQS anchor link re-directs to FAQs area                                   | Tap FAQs link                        | Redirects to FAQs area                               | PASS   |
+|                    | CONTACT anchor link re-directs to Contact Us area                          | Tap CONTACT link                     | Redirects to Contact Us area                         | PASS   |
+|                    |                                                                            |                                      |                                                      |        |
+|                    | "Download Poster" button links to Poster doc in separate tab               | Tab "Download Poster"                | Opens Poster doc in separate tab                     | PASS   |
+|                    | "Download Flyer" button links to Flyer doc in separate tab                 | Tab "Download Flyer"                 | Opens Flyer doc in separate tab                      | PASS   |
+|                    | "Download Event Map" button links to Event Map doc in separate tab         | Tab "Download Event Map"             | Opens Event Map doc in separate tab                  | PASS   |
+|                    |                                                                            |                                      |                                                      |        |
+|                    | Pontypool Community Council logo opens PCC website in separate tab         | Tap Pontypool Community Council logo | Opens PCC website in separate tab                    | PASS   |
+|                    | Torfaen Borough Council logo opens TBC website in separate tab             | Tap Torfaen Borough Council logo     | Opens TBC website in separate tab                    | PASS   |
+
+
+### Success Pages Tests
+
+#### NAVBAR
+
+| Location / Feature | Aim                                                                    | Test                    | Outcome                                       | Result |
+| ------------------ | ---------------------------------------------------------------------- | ----------------------- | --------------------------------------------- | ------ |
+| Navbar Links       | Site title redirects users to home page                                | Tap site title          | Navigates to home page                        | PASS   |
+|                    | HOME link redirects users to Home page, Hero section                   | Tap HOME link           | Navigates to Home page, Hero section          | PASS   |
+|                    | ENTERTAINMENT link redirects users to Home page, Entertainment section | Tap ENTERTAINMENT link  | Navigates to Home page, Entertainment section | PASS   |
+|                    | FOOD & DRINK link redirects users to Home page, Food & Drink area      | Tap FOOD & DRINK link   | Navigates to Home page, Food & Drink area     | PASS   |
+|                    | GIFTS & STALLS link redirects users to Home page, Gifts & Stalls area  | Tap GIFTS & STALLS link | Navigates to Home page, Gifts & Stalls area   | PASS   |
+|                    | FACILITIES link redirects users to Home page, Facilities section       | Tap FACILITIES link     | Navigates to Home page, Facilities section    | PASS   |
+|                    | TRAVEL link redirects users to Home page, Travel section               | Tap FACILITIES link     | Navigates to Home page, Travel section        | PASS   |
+|                    | FAQs link redirects users to Home page, FAQs area                      | Tap FAQs link           | Navigates to Home page, FAQs area             | PASS   |
+|                    | CONTACT link redirects users to Home page, Contact Us area             | Tap CONTACT link        | Navigates to Home page, Contact Us area       | PASS   |
+|                    | REGISTER button redirects users to Home page, Registration section     | Tap REGISTER button     | Navigates to Home page, Registration section  | PASS   |
+
+#### MAIN Section
+
+| Location / Feature | Aim                                                           | Test                      | Outcome                      | Result |
+| ------------------ | ------------------------------------------------------------- | ------------------------- | ---------------------------- | ------ |
+| Main Section       | "Return to the home page" button redirects users to Home page | Tab "Return to home page" | Redirects users to Home page | PASS   |
+
+#### FOOTER Section
+
+| Location / Feature | Aim                                                                        | Test                                 | Outcome                                              | Result |
+| ------------------ | -------------------------------------------------------------------------- | ------------------------------------ | ---------------------------------------------------- | ------ |
+| Footer             | Telephone number link opens new phonecall window with number pre-populated | Tap Telephone number                 | Opens new phonecall window with number pre-populated | PASS   |
+|                    | HOME anchor link re-directs to Home page, top Hero section                 | Tap HOME link                        | Redirects to Home page, top Hero section             | PASS   |
+|                    | ENTERTAINMENT anchor link re-directs to Home page, Entertainment section   | Tap ENTERTAINMENT link               | Redirects to Home page, Entertainment section        | PASS   |
+|                    | FOOD & DRINK anchor link re-directs to Home page, Food & Drink area        | Tap FOOD & DRINK link                | Redirects to Home page, Food & Drink area            | PASS   |
+|                    | GIFTS & STALLS anchor link re-directs to Home page, Gifts & Stalls area    | Tap GIFTS & STALLS link              | Redirects to Home page, Gifts & Stalls area          | PASS   |
+|                    | FACILITIES anchor link re-directs to Home page, Facilities section         | Tap FACILITIES link                  | Redirects to Home page, Facilities section           | PASS   |
+|                    | REGISTER anchor link re-directs to Home page, Registration section         | Tap REGISTER link                    | Redirects to Home page, Registration section         | PASS   |
+|                    | TRAVEL anchor link re-directs to Home page, Travel section                 | Tap TRAVEL link                      | Redirects to Home page, Travel section               | PASS   |
+|                    | FAQS anchor link re-directs to Home page, FAQs area                        | Tap FAQs link                        | Redirects to Home page, FAQs area                    | PASS   |
+|                    | CONTACT anchor link re-directs to Home page, Contact Us area               | Tap CONTACT link                     | Redirects to Home page, Contact Us area              | PASS   |
+|                    |                                                                            |                                      |                                                      |        |
+|                    | "Download Poster" button links to Poster doc in separate tab               | Tab "Download Poster"                | Opens Poster doc in separate tab                     | PASS   |
+|                    | "Download Flyer" button links to Flyer doc in separate tab                 | Tab "Download Flyer"                 | Opens Flyer doc in separate tab                      | PASS   |
+|                    | "Download Event Map" button links to Event Map doc in separate tab         | Tab "Download Event Map"             | Opens Event Map doc in separate tab                  | PASS   |
+|                    |                                                                            |                                      |                                                      |        |
+|                    | Pontypool Community Council logo opens PCC website in separate tab         | Tap Pontypool Community Council logo | Opens PCC website in separate tab                    | PASS   |
+|                    | Torfaen Borough Council logo opens TBC website in separate tab             | Tap Torfaen Borough Council logo     | Opens TBC website in separate tab                    | PASS   |
 
 ### Validation
 
