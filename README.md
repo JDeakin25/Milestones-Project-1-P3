@@ -561,9 +561,9 @@ The main hero image was also rather large at around 900kb; so to improve perform
 
 The final LightHouse Report scores are shown below:
 #### Desktop Lighthouse Report Score
-![Desktop Lighthouse Report Score](docs/lhr-d.webp)
+![Desktop Lighthouse Report Score](docs/lighthouse-report-desktop.webp)
 #### Mobile Lighthouse Report Score
-![Mobile device Lighthouse Report Score](docs/lhr-m.webp)
+![Mobile device Lighthouse Report Score](docs/lighthouse-report-mobile.webp)
 
 ## DE-BUGGING
 
