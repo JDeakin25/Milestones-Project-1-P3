@@ -54,7 +54,7 @@ footer {
 .cta {
     min-height: 3rem;
     background-color: #fff;
-    padding: 10px;
+
     border-top: 3px solid var(--primary-color);
     border-bottom: 3px solid var(--primary-color);
 }
