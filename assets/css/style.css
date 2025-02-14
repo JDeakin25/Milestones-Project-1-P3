@@ -213,16 +213,24 @@ iframe {
 }
 
 /* Media Queries */
-/* V. Small devices (mobiles, up to 360px) */
-@media screen and (max-width: 360px) {
-    #hero-text-title {
-        font-size: 2.6rem;
+
+/* XL devices (desktops, above 1201px) */
+@media screen and (min-width: 1201px) {
+    #hero {
+        background: url("../images/hero-background.webp") no-repeat center center/cover; /* alternative hero image for larger devices */
     }
 }
-/* Small devices (mobiles, up to 470px) */
-@media screen and (max-width: 470px) {
-    #hero-text-title {
-        font-size: 3rem;
+/* Large devices (laptops, up to 1200px) */
+@media screen and (max-width: 1200px) {
+    #hero {
+        background: url("../images/hero-background-t.webp") no-repeat center center/cover; /* alternative hero image for larger devices */
+    }
+    #hero-row,
+    #reg-row {
+        width: 80vw;
+    }
+    .card-p {
+        margin-bottom: 3rem;
     }
 }
 /* Medium devices (tablets, up to 767px) */
@@ -240,22 +248,15 @@ iframe {
     margin-bottom: 3rem;
     }
 }
-/* Large devices (laptops, up to 1200px) */
-@media screen and (max-width: 1200px) {
-    #hero {
-        background: url("../images/hero-background-t.webp") no-repeat center center/cover; /* alternative hero image for larger devices */
-    }
-    #hero-row,
-    #reg-row {
-        width: 80vw;
-    }
-    .card-p {
-        margin-bottom: 3rem;
+/* Small devices (mobiles, up to 470px) */
+@media screen and (max-width: 470px) {
+    #hero-text-title {
+        font-size: 3rem;
     }
 }
-/* XL devices (desktops, above 1201px) */
-@media screen and (min-width: 1201px) {
-    #hero {
-        background: url("../images/hero-background.webp") no-repeat center center/cover; /* alternative hero image for larger devices */
+/* V. Small devices (mobiles, up to 360px) */
+@media screen and (max-width: 360px) {
+    #hero-text-title {
+        font-size: 2.6rem;
     }
 }
