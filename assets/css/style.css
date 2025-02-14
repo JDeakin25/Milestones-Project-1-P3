@@ -14,13 +14,13 @@
     --secondary-font: "Bagel Fat One", sans-serif;
     --primary-color: #a7c4bc; /* pale green */
     --secondary-color: #cfe2ff; /* sky blue */
-    --accent-color: #551e11 ; /* dark terracotta */
+    --accent-color: #551e11; /* dark terracotta */
     --background-color: #e7e7e7; /* off white */
 }
 
 /* Global Styles */
 body {
-    background-color: var(--background-color)
+    background-color: var(--background-color);
 }
 body,
 h3,
@@ -37,7 +37,6 @@ h1 {
 h3 {
     font-weight: 600;
 }
-
 p {
     font-size: 1.3rem;
     line-height: 1.2;
@@ -54,7 +53,6 @@ footer {
 .cta {
     min-height: 3rem;
     background-color: #fff;
-
     border-top: 3px solid var(--primary-color);
     border-bottom: 3px solid var(--primary-color);
 }
@@ -79,9 +77,12 @@ footer {
     color: #000;
 }
 a {
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
-
+i,
+.cta-text {
+    margin-right: 1rem;
+}
 .hidden {
     display: none;
 }
@@ -92,11 +93,9 @@ a {
     -webkit-box-shadow: 0 3px 10px #00000043;
             box-shadow: 0 3px 10px #00000043;
 }
-
 .navbar-brand {
     font-weight: 700;
 }
-
 #navbarNav .nav-link,
 #navbarNav .btn {
     font-size: 1.15rem;
@@ -109,7 +108,6 @@ a {
     background: url("../images/hero-background-m.webp") no-repeat center center/cover;  /* ensures image does not repeat, is centralised and spans full width */
     color: #fff;
 }
-
 #hero-row {
     -webkit-backdrop-filter: blur(10px);
             backdrop-filter: blur(10px); /* blurs image behind container to add to contrast of text and image */
@@ -135,15 +133,10 @@ a {
     font-size: 1.25rem;
 }
 
-/* CTA - Socials */
+/* CTAs */
 .cta-text,
 .icon {
     font-size: 1.5rem;
-}
-
-i,
-.cta-text {
-    margin-right: 1rem;
 }
 
 /* Entertainment */
@@ -151,7 +144,6 @@ i,
     min-height: 82vh;
     background: url("../images/ent-background.webp") no-repeat center center/cover; 
 }
-
 #ent-row {
     background-color: var(--background-color);
     border-radius: 7px;
@@ -163,12 +155,10 @@ i,
     width: 100%;
     height: auto;
 }
-
 /* Tabbed elements */
 .nav-tabs .nav-link.active {
     background-color: var(--primary-color) !important; /* ensures css takes priority */
 }
-
 .nav-tabs .nav-link {
     border: 1px solid var(--primary-color);
     background-color: #fff;
@@ -182,7 +172,6 @@ i,
     background: url("../images/reg-background.webp") no-repeat center center/cover; 
     color: #fff;
 }
-
 #reg-row {
     -webkit-box-shadow: 10px 10px 20px #000000a5;
             box-shadow: 10px 10px 20px #000000a5;
@@ -195,12 +184,7 @@ i,
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-#reg-form {
-    width: 100%;
-}
-
 /* Travel */
-
 /* iframe attributes added to css to mitigate html validation errors when using inline widht/height styles */
 iframe {
     height: 100%;
@@ -212,23 +196,17 @@ iframe {
     border: 5px solid var(--primary-color);
     border-radius: 10px;
 }
-/* FAQ */
 
-.accordion-button {
-    background-color: var(--secondary-color);
-}
 /* Contact / Social Media */
 #faq,
 #contact {
     padding-top: 56px;
 }
-
 .icon-lrg {
     font-size: 3rem;
 }
 
 /* Footer Logos */
-
 .logo {
     width: 150px;
     height: auto;
@@ -236,28 +214,18 @@ iframe {
 
 /* Media Queries */
 
-/* XL devices (desktops, above 1201px) */
-@media screen and (min-width: 1201px) {
-    #hero {
-        background: url("../images/hero-background.webp") no-repeat center center/cover; /* alternative hero image for larger devices */
+/* V. Small devices (mobiles, up to 360px) */
+@media screen and (max-width: 360px) {
+    #hero-text-title {
+        font-size: 2.6rem;
     }
 }
-
-/* Large devices (laptops, up to 1200px) */
-@media screen and (max-width: 1200px) {
-    #hero {
-        background: url("../images/hero-background-t.webp") no-repeat center center/cover; /* alternative hero image for larger devices */
-    }
-
-    #hero-row,
-    #reg-row {
-        width: 80vw;
-    }
-    .card-p {
-        margin-bottom: 3rem;
+/* Small devices (mobiles, up to 470px) */
+@media screen and (max-width: 470px) {
+    #hero-text-title {
+        font-size: 3rem;
     }
 }
-
 /* Medium devices (tablets, up to 767px) */
 @media screen and (max-width: 767px) {
     #hero-text-title {
@@ -273,17 +241,23 @@ iframe {
     margin-bottom: 3rem;
     }
 }
+/* Large devices (laptops, up to 1200px) */
+@media screen and (max-width: 1200px) {
+    #hero {
+        background: url("../images/hero-background-t.webp") no-repeat center center/cover; /* alternative hero image for larger devices */
+    }
 
-/* Small devices (mobiles, up to 470px) */
-@media screen and (max-width: 470px) {
-    #hero-text-title {
-        font-size: 3rem;
+    #hero-row,
+    #reg-row {
+        width: 80vw;
+    }
+    .card-p {
+        margin-bottom: 3rem;
     }
 }
-
-/* V. Small devices (mobiles, up to 360px) */
-@media screen and (max-width: 360px) {
-    #hero-text-title {
-        font-size: 2.6rem;
+/* XL devices (desktops, above 1201px) */
+@media screen and (min-width: 1201px) {
+    #hero {
+        background: url("../images/hero-background.webp") no-repeat center center/cover; /* alternative hero image for larger devices */
     }
 }
