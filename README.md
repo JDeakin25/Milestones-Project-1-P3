@@ -174,19 +174,46 @@ Pontypool Community Council are the intended site owners and will expect clarity
 
 ### Colour Palettes
 
+The subject of this site will be the main park in Pontypool and will need images that convey this location well. As the site will involve images of a natural park area I thought a colour palette that complimented the colours naturally found in a park would be useful for this project.
+
+The colour palette would need to be soft and subtle to contrast the deeper colours shown in the images of the event. The colour palette I chose is shown in the image below:
+
 ![Color Palette graphic](docs/color-palette.webp)
 
 ### Typography
 
-![Primary Font example graphic](docs/font-primary.webp)  
+This site needs to be attractive to a wide range of site users due to the audience base this event will be intended for. The event is intended to be fun and family-friendly and this needs to be conveyed through the typography choices.
+
+I chose a simple and easy to read font for the main bulk of the text content - the Google Font "Zain", and to give particular attention to certain titles I chose a more unique font - the Google Font "Bagel Fat One"
+
+Examples of these fonts can be seen in the images below:
+
+![Primary Font example graphic](docs/font-primary.webp)
+
 ![Secondary Font example graphic](docs/font-secondary.webp)
+
+As a fall-back to these font choices I included "sans-serif" attributes to ensure a good user experience if the Google Font CDN ever fails.
 
 ### Images
 
+The main goal of this site is to attract potential attendees; to achieve this I have included plenty of supporting images that make specific reference to the location of the event, Pontypool Park. I've also referred to the key selling points of the event, like the entertainment and food and drink opportunities. Whilst this event is a real event I found that a lot of the imagery available online did not cover the variety of shots I needed to achieve the site goal and so I used Google Gemini to create my images. 
+
+I made sure to include prompts relating to the event and location, to try and create an honest impression of the event that was not too misleading, despite being A.I generated. For the future development of this website, I plan to attend this event and take a wide selection of photographs that can then be used to replace the A.I generated images and offer site users a true reflection of this event.
+
+
 ### Wireframe Designs
-  * [Mobile](docs/mobilewireframe.pdf)
-  * [Tablet](docs/tabletwireframe.pdf)
-  * [Desktop](docs/desktopwireframe.pdf)
+
+Due to the large target audience of site users, I need to make sure this site is simple to navigate and site users can quickly find the information they require to decide on attendance. Rather than create a complicated site structure with designated pages for the various sections and selling points of the site, I chose to have a single page that condensed the information into one space with multiple sections, ensuring site users are presented with all the information they need efficiently and with minimal page navigation required. 
+
+By having a simple site structure the site will perform effectively as a platform to 'sell' the event to site users, as each section has been located to compound the value offered in the previous section, culminating in the opportunity to register as an event attendee and achieve another core function of the site. Various CTAs (calls to action) intersect the core sections, prompting users who are ready to head straight to the Registration section. 
+
+Following the Registration section, if a site user is still undecided they have further supplemental event information available in the Travel, FAQs and Contact sections, that will hopefully alleviate any concerns or queries they may have and further encourage attendance. Finally, if a site user reaches the site footer and is still undecide I have included a basic site map that will navigate users to their chosen section.
+
+I have included my initial wire-frame documents below:
+
+  * [Mobile Wireframe Doc](docs/mobilewireframe.pdf)
+  * [Tablet Wireframe Doc](docs/tabletwireframe.pdf)
+  * [Desktop Wireframe Doc](docs/desktopwireframe.pdf)
 
 ## FEATURES
 
