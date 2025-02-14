@@ -238,6 +238,10 @@ iframe {
 
 /* Large devices (laptops, up to 1200px) */
 @media screen and (max-width: 1200px) {
+    #hero {
+        background: url("../images/hero-background-t.webp") no-repeat center center/cover; /* alternative hero image for larger devices */
+    }
+
     #hero-row,
     #reg-row {
         width: 80vw;
@@ -249,10 +253,12 @@ iframe {
 
 /* Medium devices (tablets, up to 767px) */
 @media screen and (max-width: 767px) {
+    #hero {
+        background: url("../images/hero-background-m.webp") no-repeat center center/cover; /* alternative hero image for smaller devices */
+    } 
     #hero-text-title {
         font-size: 4rem;
     }
-
     /* CTA - Socials */
     #cta-social-text {
         font-size: 1.25rem;;
