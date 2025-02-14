@@ -32,21 +32,21 @@ Pontypool Party in the Park is an annual event held for the benefit of the local
   * [Bootstrap Libraries](#bootstrap-libraries)
 
 ### 6. [Testing](#testing)
-  * [User Stories](#user-stories-1) compared to User Experience
-  * [Main Home Page](#main-home-page-tests) - nav, anchor and social links
-  * [Success Pages](#success-pages-tests) - nav, anchor and social links
-  * [Validation](#validation) - Use HTML and CSS validation for all site pages
-  * [Lighthouse Reports](#lighthouse-reports) - via Google Chrome
+  * [User Stories](#user-stories-1)
+  * [Main Home Page](#main-home-page-tests)
+  * [Success Pages](#success-pages-tests)
+  * [Validation](#validation)
+  * [Lighthouse Reports](#lighthouse-reports)
 
 ### 7. [De-Bugging](#de-bugging)
-  * [Developer Console Tools](#developer-console-tools) - journey exploring any potential bugs
+  * [Developer Console Tools](#developer-console-tools)
 
 ### 8. [Deployment](#deployment)
-  * [GITHUB Pages](#github-pages)
+  * [GitHub Pages](#github-pages)
 
 ### 9. [Credits](#credits)
-  * [Code](#code) - 3rd party library/code/snippet providers
-  * [Media](#media) - images generated with Gemini for originality and to avoid copyright infringement/obtaining permissions.
+  * [Code](#code)
+  * [Content & Media](#content-and-media)
 
 ### 10. [Acknowledgements](#acknowledgements)
 
@@ -88,10 +88,10 @@ Pontypool Community Council are the intended site owners and will expect clarity
   To ensure site visitors are provided with crucially positive impressions of the event and are motivated to attend, this project will work towards achieving the following key goals:
 
   - The site content is fun, simplistic and engaging.
-  - The site is attractive and motivational to a range of different cultural and social demographics and is positively inclusive in nature.
+  - The site is attractive and motivational to a range of different cultural and social demographics and is positively inclusive.
   - The site uses modern design trends and is accessible to a wide range of screen sizes and device mediums.
   - The site offers interactivity that generates further engagement.
-  - The site complies with all necessary ARIA accessibility requirements, including making use of semantic HTML elements, to aid compatiblilty with screen-reader technologies.
+  - The site complies with all necessary ARIA accessibility requirements, including making use of semantic HTML elements, to aid compatibility with screen-reader technologies.
 
 
   ### Increased turnover and revenue
@@ -119,7 +119,7 @@ Pontypool Community Council are the intended site owners and will expect clarity
 
   ### Relevance to the local community
 
-  To ensure site visitors have a postive experience and gain a sense of familiarity to the event prior to attendance, I need to pay particular attention to include relevant information that helps promote the local area and ultimately drive attendance. 
+  To ensure site visitors have a positive experience and gain a sense of familiarity with the event before attending, I need to pay particular attention to include relevant information that helps promote the local area and ultimately drive attendance. 
 
   - Images need to exhibit the Pontypool Park environment and atmosphere.
   - Copy needs to reflect the cultural and social nuances of the surrounding population.
@@ -132,11 +132,11 @@ Pontypool Community Council are the intended site owners and will expect clarity
   - Ensure the site layout is logical in order, prioritising the most essential information first
   - Provide a fixed navigation bar to support site users and avoid laborious scrolling and poor user experience
   - Include relevant image content to support neighbouring copy
-  - Any sections of information that are considerable in size need to be presented using specific elements which have been designed to help condense information and present detail  effectively
+  - Any sections of information that are considerable in size need to be presented using specific elements which have been designed to help condense information and present detail  effectively.
 
   ### Technology choices
 
-  A core goal of this site to make use of the HTML5 and CSS3 coding languages proficiently, to ensure a fully functioning and effective resource is available to potential event attendees. 
+  A core goal of this site is to make use of the HTML5 and CSS3 coding languages proficiently, to ensure a fully functioning and effective resource is available to potential event attendees. 
   
   - Using HTML5 along with Bootstrap library components will help achieve formatting and layout choices. 
   - CSS3 styling will help coordinate the aesthetic of the site, promote consistency and ensure compatibility with different screen sizes.
@@ -155,7 +155,7 @@ Pontypool Community Council are the intended site owners and will expect clarity
 
   - I need to be able to quickly and easily find important event information such as date, location and cost, to be able to decide on attendance.
 
-  - I want to learn about the entertainment acts and food / gift stalls that will be available during the event, to help decide on attendance and whether the event is suitable.
+  - I want to learn about the entertainment acts and food/gift stalls that will be available during the event, to help decide on attendance and whether the event is suitable.
 
   - I'd like to be able to register minimal details with the event organisers to ensure I am kept up to date on any news and incentives related to the event, before attendance.
 
@@ -167,7 +167,7 @@ Pontypool Community Council are the intended site owners and will expect clarity
 
   - I would like to know about which charities are being supported by the event and how I may be able to contribute, to help support important initiatives and positive change.
 
-  - I would like to know about what opportunities there are available to support the event in achieving it's financial targets, with the goal of promoting my business and gaining traction in the local areas of commerce.
+  - I would like to know about what opportunities are available to support the event in achieving its financial targets, with the goal of promoting my business and gaining traction in the local areas of commerce.
 
 
 ## WEBSITE DESIGN
@@ -184,7 +184,7 @@ The colour palette would need to be soft and subtle to contrast the deeper colou
 
 This site needs to be attractive to a wide range of site users due to the audience base this event will be intended for. The event is intended to be fun and family-friendly and this needs to be conveyed through the typography choices.
 
-I chose a simple and easy to read font for the main bulk of the text content - the Google Font "Zain", and to give particular attention to certain titles I chose a more unique font - the Google Font "Bagel Fat One"
+I chose a simple and easy-to-read font for the main bulk of the text content - the Google Font "Zain", and to give particular attention to certain titles I chose a more unique font - the Google Font "Bagel Fat One"
 
 Examples of these fonts can be seen in the images below:
 
@@ -192,13 +192,13 @@ Examples of these fonts can be seen in the images below:
 
 ![Secondary Font example graphic](docs/font-secondary.webp)
 
-As a fall-back to these font choices I included "sans-serif" attributes to ensure a good user experience if the Google Font CDN ever fails. Throughout the site I have made sure to follow semantic heading rules for all titles to ensure compliance with accessibility criteria and to follow best practices.
+As a fallback to these font choices, I included "sans-serif" attributes to ensure a good user experience if the Google Font CDN ever fails. Throughout the site, I have made sure to follow semantic heading rules for all titles to ensure compliance with accessibility criteria and to follow best practices.
 
 ### Images
 
-The main goal of this site is to attract potential attendees; to achieve this I have included plenty of supporting images that make specific reference to the location of the event, Pontypool Park. I've also referred to the key selling points of the event, like the entertainment and food and drink opportunities. Whilst this event is a real event I found that a lot of the imagery available online did not cover the variety of shots I needed to achieve the site goal and so I used Google Gemini to create my images. 
+The main goal of this site is to attract potential attendees; to achieve this I have included plenty of supporting images that make specific reference to the location of the event, Pontypool Park. I've also referred to the key selling points of the event, like the entertainment and food and drink opportunities. Whilst this event is a real event I found that a lot of the imagery available online did not cover the variety of shots I needed to achieve the site goal so I used Google Gemini to create my images. 
 
-I made sure to include prompts relating to the event and location, to try and create an honest impression of the event that was not too misleading, despite being A.I generated. For the future development of this website, I plan to attend this event and take a wide selection of photographs that can then be used to replace the A.I generated images and offer site users a true reflection of this event.
+I made sure to include prompts relating to the event and location, to try and create an honest impression of the event that was not too misleading, despite being A.I generated. For the future development of this website, I plan to attend this event and take a wide selection of photographs that can then be used to replace the A.I generated images and instead offer users a true reflection of this event.
 
 All images have been provided with 'alt' attributes to assist with screen-reader technologies.
 
@@ -208,7 +208,7 @@ Due to the large target audience of site users, I need to make sure this site is
 
 By having a simple site structure the site will perform effectively as a platform to 'sell' the event to site users, as each section has been located to compound the value offered in the previous section, culminating in the opportunity to register as an event attendee and achieve another core function of the site. I have used semantic HTML elements where possible to help with accessibility and to follow best practices. 
 
-Following the Registration section, if a site user is still undecided they have further supplemental event information available in the Travel, FAQs and Contact sections, that will hopefully alleviate any concerns or queries they may have and further encourage attendance. Finally, if a site user reaches the site footer and is still undecide I have included a basic site map that will navigate users to their chosen section.
+Following the Registration section, if a site user is still undecided they have further supplemental event information available in the Travel, FAQs and Contact sections, which will hopefully alleviate any concerns or queries they may have and further encourage attendance. Finally, if a site user reaches the site footer and is still undecided I have included a basic site map that will navigate users to their chosen section.
 
 I have included my initial wire-frame documents below:
 
@@ -216,13 +216,13 @@ I have included my initial wire-frame documents below:
   * [Tablet Wireframe Doc](docs/tabletwireframe.pdf)
   * [Desktop Wireframe Doc](docs/desktopwireframe.pdf)
 
-During development I found several of my initial design elements were overly complicated and difficult to achieve, mainly the masonry image layout within the main Entertainment section. After exploring various ways of achieving the initial design I then decided to save time and use a more simplistic design for this section. Another change in the layout came with the volume of images intended to be used, as I found the site became too 'busy' and distracting, so the overall quantity of images has been reduced, particularly in the Food & Drink and Gifts & Stalls areas.
+During development, I found several of my initial design elements were overly complicated to achieve, mainly the masonry image layout within the main Entertainment section. After exploring various ways of achieving the initial design I then decided to save time and use a more simplistic design for this section. Another change in the layout came with the volume of images intended to be used, as I found the site became too 'busy' and distracting, so the overall quantity of images has been reduced, particularly in the Food & Drink and Gifts & Stalls areas.
 
 ## FEATURES
 
-A core goal of the site is user engagement with the event organisers via registering for event updates, but also through social media where site users can learn about the key selling points of the event, such as the entertainment and retail options. The site includes a simple and effective lead capture form requiring only first and last names, an email address for correspondence, and a distinction on what type of attendee the user is registering as. By including a drop-down element within the form and asking site users to make this declaration, it ensures data is accurate and the correct marketing is received by the intended audience. The declaration of attendee type also benefits specifically performers and vendors, as they are clearly identifiable to the organisers and will be useful for future event planning purposes. 
+A core goal of the site is user engagement with the event organisers via registering for event updates, but also through social media where site users can learn about the key selling points of the event, such as the entertainment and retail options. The site includes a simple and effective lead capture form requiring only first and last names, an email address for correspondence, and a distinction on what type of attendee the user is registering as. By including a drop-down element within the form and asking site users to make this declaration, it ensures data is accurate and that the correct marketing is received by the intended audience. The declaration of attendee type also benefits specifically performers and vendors, as they are more identifiable to the organisers and will be useful for future event planning purposes. 
 
-When users successfully complete a form they are greeted with a confirmation message via redirection to a specific "Success" page. Within these confirmation pages I've included necessary links for users to redirect back to the site home page, ensuring site users do not get lost. The confirmation pages also include the expected navigation and footer elements, to support consistency across the site structure but also to help users navigate effectively to their next destination within the site.
+When users successfully complete a form they are greeted with a confirmation message via redirection to a specific "Success" page. Within these confirmation pages, I've included necessary links for users to redirect back to the site home page, ensuring site users do not get lost. The confirmation pages also include the expected navigation and footer elements, to support consistency across the site structure but also to help users navigate effectively to their next destination within the site.
 
 The site also includes a standard contact form to support site users with specific questions and queries, but this form also asks users to specify the context of their form submission, in relation to niche activities, like sponsorship or charity support. This addition to the form will support the user experience and help event organisers respond correctly and effectively to their intended audiences. In addition to these forms, I’ve included all relevant social media links to their respective pages, and any that were not available now link to the main social media provider home page.
 
@@ -236,7 +236,7 @@ Through studying the Code Institute walkthrough project “Boardwalk Games” I 
 
 ### Calls To Action
 
-Various CTAs (calls to action) intersect the core sections, prompting users who are ready to head straight to the Registration section. I chose to include several instances across the main site page so as to remind site visitors of a core function of the site and to help achieve the site owner goal of increased audience engagement.
+Various CTAs (calls to action) intersect the core sections, prompting users who are ready to head straight to the Registration section. I chose to include several instances across the main site page to remind site visitors of a core function of the site and to help achieve the site owner's goal of increased audience engagement.
 
 ### Social Engagement
 
@@ -246,11 +246,11 @@ All performers and suppliers cards and tab panels include relevant social media 
 
 ### Coding Languages
 
-This site employs HTML5 coding throughout, with a supporting CSS3 style sheet to assist with design choices not possible through use of the Bootstrap Libraries. For the purposes of achieving responsivity across screen sizes I have included Media Queries within the style sheet where necessary. The CSS style sheet was also supported with auto-prefixing via the GitHub tool listed in the Credits section of this document.
+This site employs HTML5 coding throughout, with a supporting CSS3 style sheet to assist with design choices not possible through the sole use of the Bootstrap Libraries. To achieve responsivity across screen sizes I have included Media Queries within the style sheet where necessary. The CSS style sheet was also supported with auto-prefixing via the GitHub tool listed in the Credits section of this document.
 
 ### Google Fonts
 
-The site fonts have been provided via the Google Fonts, with fall-back attributes present.
+The site fonts have been provided via Google Fonts, with fall-back attributes present.
 
 ### Font Awesome
 
@@ -260,37 +260,44 @@ To support the user experience I made use of various relevant Font Awesome icons
 
 ### Bootstrap Libraries
 
-I've made extensive use of the current Bootstrap Library (5.3) to assist with layout, spacing and components within the site. Due to the volume of information in the Food & Drink and Gifts & Stalls areas I chose to use the Tabs Bootstrap element. This made the user experience better when browsing all of the various details available on the supplier tab panels. I also made use of the Accordion Bootstrap element to help condense the content within the FAQs section, to again help create a positive site user experience.
+I've made use of the current Bootstrap Library (5.3.3) to assist with layout, spacing and components within the site. Due to the volume of information in the Food & Drink and Gifts & Stalls areas, I chose to use the Tabs Bootstrap element. This made the user experience better when browsing all of the various details available on the supplier tab panels. I also made use of the Accordion Bootstrap element to help condense the content within the FAQs section, to again help create a positive site user experience.
 
 ## TESTING
 
-During the development process I made sure to refer back to my user stories and owner goals, ensuring the purpose of the site was in focus at all times. I made sure to review user stories and ensure any supporting facilities in place, such as anchor links and form submission buttons were all functioning as intended. Several friends and family members were invited to test the site and no issues were raised, except for preferences around the colour palette, which were taken into consideration. 
+During the development process, I made sure to refer back to my user stories and owner goals, ensuring the purpose of the site was in focus at all times. I made sure to review user stories and ensure any supporting facilities in place, such as anchor links and form submission buttons were all functioning as intended. Several friends and family members were invited to test the site and no issues were raised, except for preferences around the colour palette, which were taken into consideration. 
 
 When testing the forms all performed as expected during desktop device testing, however when testing on mobile devices using the Firefox browser the form does not prompt users to enter their details when submitting an empty form. Whilst the form does not submit with empty fields as intended, the issue of not prompting the user formally to complete all fields will be addressed in future development.
 
-Browser compatibility tests were carried out using and showed no issues or errors:
+Browser compatibility tests were carried out using the following web browsers and showed no issues or errors:
 
 - Chrome
 - Firefox
 - Safari
 - DuckDuckGo
 
+I also tested on the following devices to ensure responsivity was good:
+
+- Desktop PC
+- Macbook Pro
+- Samsung A52s mobile device
+- Samsung Galaxy Fold3 mobile/tablet device
+
 When assessing the site against formal criteria I have achieved the following results detailed in the tables below:
 
 ### User Stories
 
-| User Story                                                                                                                                                                                                                                                               | Aim                                                                                                                                                                                                                                                                                                                    | Outcome                                                                                                                                                                                                                                                                                                                                  | Result                                              |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
-| I need a user-friendly design that is responsive and laid out effectively,<br>so I can easily find the core information I require to make an informed<br>decision on attendance.                                                                                         | The website is responsive and laid out intuitively, with core information<br>presented as a priority                                                                                                                                                                                                                   | On loading the site, the pages are responsive to all screen<br>sizes and vital information about the event is presented in<br>the first Hero section. Subsequent sections follow a priority<br>based on what aspects of the event would draw in attendees<br>most, being Entertainment, then Food & Drink, then Gifts<br>and Stalls etc. | PASS                                                |
-| I need clear and attractive images along with written content to support<br>said images which accurately depict the environment and atmosphere of<br>the event, so I can make a qualified decision on attendance.                                                        | Images are reflective of the event and relevant sections/areas include<br>supporting text to accompany images                                                                                                                                                                                                          | All images relate directly to their location on the site and their<br>accompanying text. Images have been produced to be high<br>quality whilst using appropriate compression via the WebP<br>file format to help with loading times.                                                                                                    | PASS                                                |
-| I need to be able to quickly and easily find important event information<br>such as date, location and cost, to be able to decide on attendance.                                                                                                                         | Important event information is presented immediately upon site load, and<br>is supported with an intuitive navigation bar that is fixed, helping users<br>access important information within the 3-click rule                                                                                                         | The main Hero section contains important event information and is<br>the first section that is presented to site users. The navigation bar is<br>fixed and allows users to browse to key areas on the page<br>with ease.                                                                                                                 | PASS                                                |
-| I want to learn about the entertainment acts and food/gift stalls that will<br>be available during the event, to help decide on attendance and whether<br>the event is suitable.                                                                                         | Motivational text and image content regarding Entertainment and Food &<br>Drink / Gifts & Stalls are included in specific sections, linked to by the<br>main nav bar                                                                                                                                                   | Entertainment and Food & Drink / Gifts & Stalls sections are<br>present and supported with attractive images and relevant<br>text. Links to performer/supplier email and social media are<br>also present to provide users with further information about<br>these core aspects of the event.                                            | PASS                                                |
-| I'd like to be able to register minimal details with the event organisers<br>to ensure I am kept up to date on any news and incentives related to<br>the event, before attendance.                                                                                       | Registration section is included and only requires basic information,<br>such as name, email address and attendee type. All fields in this form<br>are required for consistency of data capture. Upon submission site<br>users are greeted with a Success page confirming a successful<br>submission of their details. | The registration form contains only First Name, Last Name, Email<br>and Attendee type fields, all are required, and the user is<br>redirected to the Success page upon successful submission.                                                                                                                                            | PASS                                                |
-| I'd appreciate information that confirms the availability of toilets,<br>handwashing facilities and health professionals to ensure our attendance<br>at the event is comfortable and safe. This information will help determine<br>the suitability to attend this event. | The facilities section is included, comprising of motivational text and image<br>content that relates to the subjects discussed in this section, reassuring<br>site users of the event's comfort and safety provisions.                                                                                                | The facilities section is present and supported with attractive<br>images and motivational text, providing necessary<br>reassurances to site users.                                                                                                                                                                                      | PASS                                                |
-| I would like to be able to see answers to common questions an event<br>attendee may ask before deciding on attendance.                                                                                                                                                   | FAQs section is included, comprising of descriptive and reassuring text<br>content that addresses common queries and concerns potential event<br>attendees may have.                                                                                                                                                   | FAQ section is present and includes necessary text content to<br>support and reassure potential attendees of queries and<br>concerns they may have.                                                                                                                                                                                      | PASS                                                |
-| I would like reassurance that the event is a 'safe space' and inclusive for<br>all cultural and social demographics, is non-discriminatory and has<br>resources available to support me should I need advice.                                                            | Information is provided that promotes the event's inclusive attitude<br>and reassures potential attendees of the resources and support available<br>at the event.                                                                                                                                                      | An Inclusivity panel is present within the FAQs section,<br>providing the reassurance site users are looking for and<br>also detailing resources and support available at the event.                                                                                                                                                     | PASS                                                |
-| I would like to know about which charities are being supported by the<br>event and how I may be able to contribute, to help support important<br>initiatives and positive change.                                                                                        | Information is provided that details the charity support offered by the<br>event and explains how event attendees can offer their own support.                                                                                                                                                                         | A Charities panel is present within the FAQs section, offering<br>details on how the event supports local charities and offers<br>information for event attendees to offer their own support.                                                                                                                                            | PASS<br>(\* specific charities were not referenced) |
-| I would like to know about what opportunities there are available to<br>support the event in achieving its financial targets, with the goal<br>of promoting my business and gaining traction in the local areas of<br>commerce.                                          | Information is provided that details and promotes the opportunities<br>available for businesses to offer sponsorship to the event.                                                                                                                                                                                     | A Sponsorship panel is present within the FAQs section,<br>offering details and incentives for businesses to offer<br>sponsorship to the event.                                                                                                                                                                                          | PASS                                                |
+| User Story                                                                                                                                                                                                                                                      | Aim                                                                                                                                                                                                                                                                                                        | Outcome                                                                                                                                                                                                                                                                                                                   | Result                                              |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| I need a user-friendly design that is responsive and laid out effectively, so I can easily find the core information I require to make an informed decision on attendance.                                                                                      | Website is responsive and laid out intuitively, with core information presented as a priority.                                                                                                                                                                                                             | On loading the site, the pages are responsive to all screen sizes and vital information about the event is presented in the first Hero section. Subsequent sections follow a priority based on what aspects of the event would draw in attendees most, being Entertainment, then Food & Drink, then Gifts and Stalls etc. | PASS                                                |
+| I need clear and attractive images along with written content to support said images which accurately depict the environment and atmosphere of the event, so I can make a qualified decision on attendance.                                                     | Images are reflective of the event and relevant sections/areas include supporting text to accompany images.                                                                                                                                                                                                | All images relate directly to their location on the site and their accompanying text. Images have been produced to be high quality whilst using appropriate compression via the WebP file format to help with loading times.                                                                                              | PASS                                                |
+| I need to be able to quickly and easily find important event information such as date, location and cost, to be able to decide on attendance.                                                                                                                   | Important event information is presented immediately upon site load, and is supported with an intuitive navigation bar that is fixed, helping users access important information within the 3-click rule.                                                                                                  | Main Hero section contains important event information and is the first section presented to site users. The navigation bar is fixed and allows users to browse to key areas on the page with ease.                                                                                                                       | PASS                                                |
+| I want to learn about the entertainment acts and food / gift stalls that will be available during the event, to help decide on attendance and whether the event is suitable.                                                                                    | Motivational text and image content regarding Entertainment and Food & Drink / Gifts & Stalls are included in specific sections, linked to by the main navbar.                                                                                                                                             | Entertainment and Food & Drink / Gifts & Stalls sections are present and supported with attractive images and relevant text. Links to performer / supplier email and social media are also present to provide users with further information about these core aspects of the event.                                       | PASS                                                |
+| I'd like to be able to register minimal details with the event organisers to ensure I am kept up to date on any news and incentives related to the event, before attendance.                                                                                    | Registration section is included and only requires basic information, such as name, email address and attendee type. All fields in this form are required for consistency of data capture. Upon submission site users are greeted with a Success page confirming a successful submission of their details. | Registration form contains only First Name, Last Name, Email and Attendee type fields, all are required, and user is redirected to Success page upon successful submission.                                                                                                                                               | PASS                                                |
+| I'd appreciate information that confirms the availability of toilets, handwashing facilities and health professionals to ensure our attendance at the event is comfortable and safe. This information will help determine the suitability to attend this event. | Facilities section is included, comprising of motivational text and image content that relates to the subjects discusses in this section, reassuring site users of the event's comfort and safety provisions.                                                                                              | Facilities section is present and supported with attractive images and motivational text, providing necessary reassurances to site users.                                                                                                                                                                                 | PASS                                                |
+| I would like to be able to see answers to common questions an event attendee may ask before deciding on attendance.                                                                                                                                             | FAQs section is included, comprising of descriptive and reassuring text content that addresses common queries and concerns potential event attendees may have.                                                                                                                                             | FAQ section is present and includes necessary text content to support and reassure potential attendees of queries and concerns they may have.                                                                                                                                                                             | PASS                                                |
+| I would like reassurance that the event is a 'safe space' and inclusive for all cultural and social demographics, is non-discriminatory and has resources available to support me should I need advice.                                                         | Information is provided that promotes the event's inclusive attitude and reassures potential attendees of resources and support available at the event.                                                                                                                                                    | An Inclusivity panel is present within the FAQs section, providing the reassurance site users are looking for and also detailing resources and support available at the event.                                                                                                                                            | PASS                                                |
+| I would like to know about which charities are being supported by the event and how I may be able to contribute, to help support important initiatives and positive change.                                                                                     | Information is provided that details the charity support offered by the event and explains how event attendees can offer their own support.                                                                                                                                                                | A Charities panel is present within the FAQs section, offering details on how the event supports local charities and offers information for event attendees to offer their own support.                                                                                                                                   | PASS<br>(\* specific charities were not referenced) |
+| I would like to know about what opportunities there are available to support the event in achieving it's financial targets, with the goal of promoting my business and gaining traction in the local areas of commerce.                                         | Information is provided that details and promotes the opportunities available for businesses to offer sponsorship to the event.                                                                                                                                                                            | A Sponsorship panel is present within the FAQs section, offering details and incentives for businesses to offer sponsorship to the event.                                                                                                                                                                                 | PASS                                                |
 
 ### Main Home Page Tests
 
@@ -298,7 +305,7 @@ When assessing the site against formal criteria I have achieved the following re
 
 | Location / Feature | Aim                                                         | Test                    | Outcome                            | Result |
 | ------------------ | ----------------------------------------------------------- | ----------------------- | ---------------------------------- | ------ |
-| Navbar             | Site title redirects users to home page                     | Tap site title          | Navigates to home page             | PASS   |
+| Navbar             | Site title redirects users to Home page                     | Tap site title          | Navigates to Home page             | PASS   |
 |                    | HOME link redirects users to Hero section                   | Tap HOME link           | Navigates to Hero section          | PASS   |
 |                    | ENTERTAINMENT link redirects users to Entertainment section | Tap ENTERTAINMENT link  | Navigates to Entertainment section | PASS   |
 |                    | FOOD & DRINK link redirects users to Food & Drink area      | Tap FOOD & DRINK link   | Navigates to Food & Drink area     | PASS   |
@@ -466,7 +473,7 @@ When assessing the site against formal criteria I have achieved the following re
 |                    |                                                                     | Submit form without @ symbol          | Form does not submit                         | PASS   |
 |                    | Enquiry Type field is required and expects an option to be selected | Submit form without selecting option  | Form does not submit                         | PASS   |
 |                    | Leave a message here field is required and expects text content     | Submit form without Message entry     | Form does not submit                         | PASS   |
-|                    | Completed form redirects user to Success page                       | Submit form will all fields completed | Form submits, redirects user to Success page | PASS   |
+|                    | Completed form redirects user to Success page                       | Submit form with all fields completed | Form submits, redirects user to Success page | PASS   |
 
 #### FOOTER Section
 
@@ -538,19 +545,19 @@ When assessing the site against formal criteria I have achieved the following re
 
 ### Validation
 
-All site pages have been validated using the [https://validator.w3.org/](https://validator.w3.org/) tool. During initial testing I found that using multiple Bootstrap assets had created errors in the overall code by duplicating certain element ids. To fix this I made sure to update any offending duplicates. Several small errors in code syntax were also remedied and now the site HTML code shows no errors.
+All site pages have been validated using the [https://validator.w3.org/](https://validator.w3.org/) tool. During initial testing, I found that using multiple Bootstrap assets had created errors in the overall code by duplicating certain element IDs. To fix this I made sure to update any offending duplicates. Several small errors in code syntax were also remedied and now the site HTML code shows no errors.
 
 The CSS style sheet has been validated using the [https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/) tool and no errors were found.
 
-For accessibility purposes and to support screen-readers I used a WAVE Evaluation Tool browser plugin provided by [WebAIM](https://webaim.org/) to evaluate the site for aria-compliance. Initial tests showed several errors relating to aria-labelling of icons and also in relation to semantic heading ordering. Following the use of this tool I identified the errors in accessibility and all have been corrected. There are currently six alerts relating to pdf documents available within the site. Aria labels were added but this did not fix the issue, as it relates to screen-reader compatibility with the pdf file type. Future development of this site will look to address this area.
+For accessibility purposes and to support screen-readers I used a WAVE Evaluation Tool browser plugin provided by [WebAIM](https://webaim.org/) to evaluate the site for aria-compliance. Initial tests showed several errors relating to the aria-labelling of icons and semantic heading ordering. Following the use of this tool, I identified the accessibility errors and all have been corrected. There are currently six alerts relating to PDF documents available on the site. Aria labels were added but this did not fix the issue, as it relates to screen-reader compatibility with the pdf file type. Future development of this site will look to address this area.
 
 ![WAVE Evaluation Tool Report](docs/accessibility-report.webp)
 
 ### Lighthouse Reports
 
-During initial Lighthouse Report testing I received low scores relating to the previous issue of missing aria-labels and also in relation to performance. To fix the accessibility issues all aria-labelling errors were corrected using the WebAIM tool. To improve performance I chose to export new versions of my images, reducing their sizes by 50%. The images had originally been exported via Adobe Photoshop in WebP format at a 74% level of quality to ensure optimum loading times along with maintaining a high quality of picture. The original exports proved to be excessively large for their intended placements and by reducing their sizes to more reasonable values I helped to improve the performance and loading times of the site. 
+During initial Lighthouse Report testing, I received low scores relating to the previous issue of missing aria labels and also in relation to performance. To fix the accessibility issues all aria-labelling errors were corrected using the WebAIM tool. To improve performance I chose to export new versions of my images, reducing their sizes by 50%. The images had originally been exported via Adobe Photoshop in WebP format at a 74% level of quality to ensure optimum loading times along with maintaining a high-quality image. The original exports proved to be excessively large for their intended placements and by reducing their sizes to more reasonable values I helped to improve the performance and loading times of the site. 
 
-The main hero image was also rather large at around 900kb; so to improve performance with this section I reduced the file size but also created versions for alternative screensizes. I maintained the aspect ratio of the original Hero background image but scaled down the size to suit tablets and mobile devices. Using Media Queries in my CSS style sheet I made sure the relevant size Hero image was loaded depending on what size screen is viewing the site, helping again to improve the Lighthouse Report scores. The desktop scores are positive, however future development will require focus on improving mobile device scores.
+The main hero image was also rather large at around 900kb; so to improve performance with this section I reduced the file size but also created versions for alternative screen sizes. I maintained the aspect ratio of the original Hero background image but scaled down the size to suit tablets and mobile devices. Using Media Queries in my CSS style sheet I made sure the relevant size Hero image was loaded depending on what size screen is viewing the site, helping again to improve the Lighthouse Report scores. The desktop scores are positive, however future development will require a focus on improving mobile device scores.
 
 The final LightHouse Report scores are shown below:
 #### Desktop Lighthouse Report Score
@@ -562,14 +569,13 @@ The final LightHouse Report scores are shown below:
 
 ### Developer Console Tools
 
-When testing the site during and after development I made extensive use of the Developer Tools Console within my browser, helping to identify any unexpected outcomes to the code in place. One particular bug that came up involved the main Navbar element width extending beyond the width of the Body element. To be able to identify which section or element within the page code was causing the error I removed each section individually and refreshing the site to see if the problem resolved. Eventually I worked out that the error was coming from a section where I had removed the default padding attribute from certain Bootstrap elements via custom CSS. Once the instances of padding="0" were removed the site structure reverted to it's original design. Another issue I found through testing is with the form width contained within the Registration section - the form does not correctly span the full width of the container despite using the "col-12" Bootstrap class. This will be explored and rectified through future development.
-
+When testing the site during and after development I made extensive use of the Developer Tools Console within my browser, helping to identify any unexpected outcomes to the code in place. One particular bug that came up involved the main Navbar element width extending beyond the width of the Body element. To be able to identify which section or element within the page code was causing the error I removed each section individually and refreshed the site to see if the problem was resolved. Eventually, I worked out that the error was coming from a section where I had removed the default padding attribute from certain Bootstrap elements via custom CSS. Once the instances of padding="0" were removed the site structure reverted to its original design. Another issue I found through testing is with the form width contained within the Registration section - the form does not correctly span the full width of the container despite using the "col-12" Bootstrap class. This will be explored and rectified through future development.
 
 ## DEPLOYMENT
 
 This site was created using Visual Code Studio and deployed to GitHub pages. 
 
-### GITHUB Pages
+### GitHub Pages
 
 To deploy this site please complete the following steps:
 
@@ -578,17 +584,31 @@ To deploy this site please complete the following steps:
 3. Select the "pages" link from the left side menu.
 4. Under the "build & deployment" menu, within the "branch" menu, select "Deploy from branch".
 5. Select "main" and "/root" options.
-6. Click "save".
-7. Once the project has deployed you will have the option to visit the site via clicking the URL at the top of the page.
+6. Select "save".
+7. Once the project has deployed you will have the option to visit the site by selecting the URL at the top of the page.
 
 ## CREDITS
 
 ### Code
 
-### Media
+Within the index.html page at lines 1020 to 1040, and within the success pages at lines 178 to 198 I have included code taken from the Boardward Games walkthrough tutorial provided by Code Institute to ensure the navbar dropdown list performed as intended.
 
+- [Bootstrap 5.3.3](https://getbootstrap.com/) - HTML layout and components.
+- [Visual Studio Code](https://code.visualstudio.com/) - IDE for writing code and deployment.
+- [GitHub Autoprefixer](https://autoprefixer.github.io) - assists with CSS browser compatibility.
+- [Font Awesome](https://fontawesome.com/) - icon assets.
+- [W3 Schools](https://www.w3schools.com/) - useful in finding ways to achieve CSS choices.
+- [Google Fonts](https://fonts.google.com/) - fonts.
+- [Google Maps](https://www.google.co.uk/maps/) - map.
+- [Google Chrome](https://www.google.co.uk/chrome/) - Lighthouse reports.
+
+### Content and Media
+
+- [Balsamiq Wireframing](https://balsamiq.com/) - wireframe graphics.
+- [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) - image formatting and export to WebP, colour palettes.
+- [Google Gemini](https://gemini.google.com/) - content copy and image creation.
 
 ## ACKNOWLEDGEMENTS
 
-  * Course provider - Code Insititute
-  * GitHub - invaluable resource
+- [Code Insititute](https://codeinstitute.net/) - Course provider
+- David Bowers - Mentor
