@@ -192,7 +192,7 @@ Examples of these fonts can be seen in the images below:
 
 ![Secondary Font example graphic](docs/font-secondary.webp)
 
-As a fall-back to these font choices I included "sans-serif" attributes to ensure a good user experience if the Google Font CDN ever fails.
+As a fall-back to these font choices I included "sans-serif" attributes to ensure a good user experience if the Google Font CDN ever fails. Throughout the site I have made sure to follow semantic heading rules for all titles to ensure compliance with accessibility criteria and to follow best practices.
 
 ### Images
 
@@ -205,7 +205,7 @@ I made sure to include prompts relating to the event and location, to try and cr
 
 Due to the large target audience of site users, I need to make sure this site is simple to navigate and site users can quickly find the information they require to decide on attendance. Rather than create a complicated site structure with designated pages for the various sections and selling points of the site, I chose to have a single page that condensed the information into one space with multiple sections, ensuring site users are presented with all the information they need efficiently and with minimal page navigation required. 
 
-By having a simple site structure the site will perform effectively as a platform to 'sell' the event to site users, as each section has been located to compound the value offered in the previous section, culminating in the opportunity to register as an event attendee and achieve another core function of the site. Various CTAs (calls to action) intersect the core sections, prompting users who are ready to head straight to the Registration section. 
+By having a simple site structure the site will perform effectively as a platform to 'sell' the event to site users, as each section has been located to compound the value offered in the previous section, culminating in the opportunity to register as an event attendee and achieve another core function of the site. I have used semantic HTML elements where possible to help with accessibility and to follow best practices. 
 
 Following the Registration section, if a site user is still undecided they have further supplemental event information available in the Travel, FAQs and Contact sections, that will hopefully alleviate any concerns or queries they may have and further encourage attendance. Finally, if a site user reaches the site footer and is still undecide I have included a basic site map that will navigate users to their chosen section.
 
@@ -215,28 +215,51 @@ I have included my initial wire-frame documents below:
   * [Tablet Wireframe Doc](docs/tabletwireframe.pdf)
   * [Desktop Wireframe Doc](docs/desktopwireframe.pdf)
 
+During development I found several of my initial design elements were overly complicated and difficult to achieve, mainly the masonry image layout within the main Entertainment section. After exploring various ways of achieving the initial design I then decided to save time and use a more simplistic design for this section. Another change in the layout came with the volume of images intended to be used, as I found the site became too 'busy' and distracting, so the overall quantity of images has been reduced, particularly in the Food & Drink and Gifts & Stalls areas.
+
 ## FEATURES
+
+A core goal of the site is user engagement with the event organisers via registering for event updates, but also through social media where site users can learn about the key selling points of the event, such as the entertainment and retail options. The site includes a simple and effective lead capture form requiring only first and last names, an email address for correspondence, and a distinction on what type of attendee the user is registering as. By including a drop-down element within the form and asking site users to make this declaration, it ensures data is accurate and the correct marketing is received by the intended audience. The declaration of attendee type also benefits specifically performers and vendors, as they are clearly identifiable to the organisers and will be useful for future event planning purposes. 
+
+When users successfully complete a form they are greeted with a confirmation message via redirection to a specific "Success" page. Within these confirmation pages I've included necessary links for users to redirect back to the site home page, ensuring site users do not get lost. The confirmation pages also include the expected navigation and footer elements, to support consistency across the site structure but also to help users navigate effectively to their next destination within the site.
+
+The site also includes a standard contact form to support site users with specific questions and queries, but this form also asks users to specify the context of their form submission, in relation to niche activities, like sponsorship or charity support. This addition to the form will support the user experience and help event organisers respond correctly and effectively to their intended audiences. In addition to these forms, I’ve included all relevant social media links to their respective pages, and any that were not available now link to the main social media provider home page.
+
+As an added feature to support the user experience and encourage event attendance an IFrame containing a Google map of the event location is available in the Travel section, along with links to useful external travel planning facilities. 
 
 ### Site Navigation
 
+The site employs a simple navigation structure that contains links to the main sections and areas of the home page. When viewed on smaller devices the main navigation bar will condense into a burger icon that displays a drop-down menu when activated. 
+
+Through studying the Code Institute walkthrough project “Boardwalk Games” I was introduced to a small script of JS that causes the burger menu list to collapse when a link is activated, as the standard Bootstrap navbar code does not offer this function. I have included this script within this site to offer a more professional experience to site users than the standard Bootstrap code allows for.
+
 ### Calls To Action
+
+Various CTAs (calls to action) intersect the core sections, prompting users who are ready to head straight to the Registration section. I chose to include several instances across the main site page so as to remind site visitors of a core function of the site and to help achieve the site owner goal of increased audience engagement.
 
 ### Social Engagement
 
+All performers and suppliers cards and tab panels include relevant social media links, to help site users engage with the key selling points of the event. By providing links to this added content it will help site visitors to make informed choices about the suitability of the event and whether to attend or not. Links to the event organiser's social media pages are also present where possible to support site user engagement with the event.
 
 ## TECHNOLOGIES
 
 ### Coding Languages
 
+This site employs HTML5 coding throughout, with a supporting CSS3 style sheet to assist with design choices not possible through use of the Bootstrap Libraries. For the purposes of achieving responsivity across screen sizes I have included Media Queries within the style sheet where necessary. The CSS style sheet was also supported with auto-prefixing via the GitHub tool listed in the Credits section of this document.
+
 ### Google Fonts
+
+The site fonts have been provided via the Google Fonts, with fall-back attributes present.
 
 ### Font Awesome
 
+To support the user experience I made use of various relevant Font Awesome icons, helping the user to visualise the subject matter they are viewing.
 
 ## LIBRARIES
 
 ### Bootstrap Libraries
 
+I've made extensive use of the current Bootstrap Library (5.3) to assist with layout, spacing and components within the site. Due to the volume of information in the Food & Drink and Gifts & Stalls areas I chose to use the Tabs Bootstrap element. This made the user experience better when browsing all of the various details available on the supplier tab panels. I also made use of the Accordion Bootstrap element to help condense the content within the FAQs section, to again help create a positive site user experience.
 
 ## TESTING
 
