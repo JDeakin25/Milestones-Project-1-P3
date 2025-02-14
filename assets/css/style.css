@@ -213,7 +213,6 @@ iframe {
 }
 
 /* Media Queries */
-
 /* V. Small devices (mobiles, up to 360px) */
 @media screen and (max-width: 360px) {
     #hero-text-title {
@@ -246,7 +245,6 @@ iframe {
     #hero {
         background: url("../images/hero-background-t.webp") no-repeat center center/cover; /* alternative hero image for larger devices */
     }
-
     #hero-row,
     #reg-row {
         width: 80vw;
