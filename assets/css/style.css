@@ -105,7 +105,7 @@ i,
 #hero {
     min-height: 85vh;
     width: 100%;
-    background: url("../images/hero-background-m.webp") no-repeat center center/cover;  /* ensures image does not repeat, is centralised and spans full width */
+    background: url("../images/hero-background.webp") no-repeat center center/cover;  /* ensures image does not repeat, is centralised and spans full width */
     color: #fff;
 }
 #hero-row {
@@ -232,8 +232,8 @@ iframe {
         margin-bottom: 3rem;
     }
 }
-/* Medium devices (tablets, up to 767px) */
-@media screen and (max-width: 767px) {
+/* Medium devices (tablets, up to 768px) */
+@media screen and (max-width: 768px) {
     #hero-text-title {
         font-size: 4rem;
     }
@@ -247,8 +247,11 @@ iframe {
         margin-bottom: 3rem;
     }
 }
-/* Small devices (mobiles, up to 470px) */
-@media screen and (max-width: 470px) {
+/* Small devices (mobiles, up to 576px) */
+@media screen and (max-width: 576px) {
+    #hero {
+        background: url("../images/hero-background-m.webp") no-repeat center center/cover; /* alternative hero image for larger devices */
+    }
     #hero-text-title {
         font-size: 3rem;
     }
