@@ -20,6 +20,9 @@ Pontypool Party in the Park is an annual event held for the benefit of the local
 
 ### 3. [Features](#features)
   * [Site Navigation](#site-navigation)
+  * [Hero Section](#hero-section)
+  * [Cards](#cards)
+  * [Tabbed Elements](#tabbed-elements)
   * [Calls to Action](#calls-to-action)
   * [Social Engagement](#social-engagement)
 
@@ -38,8 +41,9 @@ Pontypool Party in the Park is an annual event held for the benefit of the local
   * [Validation](TESTING.md#validation)
   * [Lighthouse Reports](TESTING.md#lighthouse-reports)
 
-### 7. [De-Bugging](#de-bugging)
+### 7. [Bugs, Issues & Fixes](#bugs-issues--fixes)
   * [Developer Console Tools](#developer-console-tools)
+  * [Future Development](#future-development)
 
 ### 8. [Deployment](#deployment)
   * [GitHub Pages](#github-pages)
@@ -230,13 +234,61 @@ As an added feature to support the user experience and encourage event attendanc
 
 ### Site Navigation
 
-The site employs a simple navigation structure that contains links to the main sections and areas of the home page. When viewed on smaller devices the main navigation bar will condense into a burger icon that displays a drop-down menu when activated. 
+The site employs a simple navigation structure that contains links to the main sections and areas of the home page. A prominent "Register" button is visible to immediately guide people to engage with the event organisers and register for email marketing.
+
+![Desktop navbar](docs/navbar-desktop.webp)
+
+When viewed on smaller devices the main navigation bar will condense into a burger icon that displays a drop-down menu when activated. 
+
+![Mobile navbar](docs/navbar-mobile.webp)
 
 Through studying the Code Institute walkthrough project “Boardwalk Games” I was introduced to a small script of JS that causes the burger menu list to collapse when a link is activated, as the standard Bootstrap navbar code does not offer this function. I have included this script within this site to offer a more professional experience to site users than the standard Bootstrap code allows for.
+
+### Hero Section
+
+The main introductory hero section immediately gives site users the core event details they would need to make an initial decision around attendance. I've included three anchor link buttons to guide users to key areas of the page, such as finding out what entertainment is on, registering for the event and contacting the event organisers. 
+
+![Desktop hero](docs/hero-desktop.webp)
+
+Due to the size of the hero image, this image was re-formatted and exported two further times to accomodate small and medium device sizes and improve loading times. These smaller versions of the hero image are utilised via custom CSS which engages at key breakpoints.
+
+When viewing the hero section on mobile devices the anchor link buttons are designed to fill their container's width to be clear and useful to site users, rather than maintain the desktop layout.
+
+![Mobile hero](docs/hero-mobile.webp)
+
+### Cards
+
+The Bootstrap card component was used more than once on the site to promote a consistent approach to site layout and to also make key information clear and relatable to site users. The cards show an image and content describing the feature to site users and also help facilitate navigation of other key sections of the main home page.
+
+![Desktop cards](docs/cards-desktop.webp)
+
+When viewed on tablets and smaller devices the card component will restructure it's layout from a four-column row toa two-column row on tablet and one-column row on mobile. During development I experimented with having a two-column layout on smaller devices but I found this looked too busy and distracting, so I reverted to the standard Bootstrap layout.
+
+#### Tablet view
+![Tablet cards](docs/cards-tablet.webp)
+
+#### Mobile view
+![Mobile cards](docs/cards-mobile.webp)
+
+### Tabbed Elements
+
+When considering the potential abundance of supplier/trader information that could be available to site users I needed to make use of an efficient component which can contain and present important details to site users in an intuitive and familiar way. To achieve this I opted for the Bootstrap Tabs component as this achieved the end result I was looking for. With the current volume of tabs in use the component is effective but when considering future development and how the volume of information might increase in this area I anticipate potentially having to explore a different way of presenting this information. 
+
+![Desktop tabs](docs/tabs-desktop.webp)
+
+When viewing the tabbed components on small screen sizes I found the information and layout could become a little 'busy' and so I opted to change to a single-column layout to aid with clarity and ease of use for the site users.
+
+#### Tablet view
+![Tablet tabs](docs/tabs-tablet.webp)
+
+#### Mobile view
+![Mobile tabs](docs/tabs-mobile.webp)
 
 ### Calls To Action
 
 Various CTAs (calls to action) intersect the core sections, prompting users who are ready to head straight to the Registration section. I chose to include several instances across the main site page to remind site visitors of a core function of the site and to help achieve the site owner's goal of increased audience engagement.
+
+![CTA desktop](docs/cta-desktop.webp)
 
 ### Social Engagement
 
@@ -262,11 +314,15 @@ To support the user experience I made use of various relevant Font Awesome icons
 
 I've made use of the current Bootstrap Library (5.3.3) to assist with layout, spacing and components within the site. Due to the volume of information in the Food & Drink and Gifts & Stalls areas, I chose to use the Tabs Bootstrap element. This made the user experience better when browsing all of the various details available on the supplier tab panels. I also made use of the Accordion Bootstrap element to help condense the content within the FAQs section, to again help create a positive site user experience.
 
-## DE-BUGGING
+## Bugs, Issues & Fixes
 
 ### Developer Console Tools
 
 When testing the site during and after development I made extensive use of the Developer Tools Console within my browser, helping to identify any unexpected outcomes to the code in place. One particular bug that came up involved the main Navbar element width extending beyond the width of the Body element. To be able to identify which section or element within the page code was causing the error I removed each section individually and refreshed the site to see if the problem was resolved. Eventually, I worked out that the error was coming from a section where I had removed the default padding attribute from certain Bootstrap elements via custom CSS. Once the instances of padding="0" were removed the site structure reverted to its original design. Another issue I found through testing is with the form width contained within the Registration section - the form does not correctly span the full width of the container despite using the "col-12" Bootstrap class. This will be explored and rectified through future development.
+
+### Future Development
+
+It is my aim to fork this repository following assessment and continue to develop the page as an MVP prototype, to then present to Pontypool Community Council as a replacement to their current version. There are small layout and formatting issues that can be improved upon with further experience and experimentation with the Bootstrap library. As my course with Code Institute continues my aim is to incorporate the new knowledge and skills into the forked repository and develop a useful platform that will realistically achieve all of the intended site owner goals.
 
 ## DEPLOYMENT
 
