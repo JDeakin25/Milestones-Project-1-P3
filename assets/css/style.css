@@ -178,7 +178,7 @@ i,
     padding: 0.5rem;
     width: 60vw;
     -webkit-backdrop-filter: blur(20px);
-            backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
     border: 5px solid var(--primary-color);
     border-radius: 50px;
     background-color: rgba(0, 0, 0, 0.5);
