@@ -91,7 +91,7 @@ i,
 #navbar {
     background-color: var(--primary-color);
     -webkit-box-shadow: 0 3px 10px #00000043;
-            box-shadow: 0 3px 10px #00000043;
+    box-shadow: 0 3px 10px #00000043;
 }
 .navbar-brand {
     font-weight: 700;
@@ -110,12 +110,12 @@ i,
 }
 #hero-row {
     -webkit-backdrop-filter: blur(10px);
-            backdrop-filter: blur(10px); /* blurs image behind container to add to contrast of text and image */
+    backdrop-filter: blur(10px); /* blurs image behind container to add to contrast of text and image */
     padding: 0.5rem;
     border: 5px solid var(--primary-color);
     border-radius: 20px;
     -webkit-box-shadow: 10px 10px 20px #000000a5;
-            box-shadow: 10px 10px 20px #000000a5;
+    box-shadow: 10px 10px 20px #000000a5;
     width: 40vw;
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -174,7 +174,7 @@ i,
 }
 #reg-row {
     -webkit-box-shadow: 10px 10px 20px #000000a5;
-            box-shadow: 10px 10px 20px #000000a5;
+    box-shadow: 10px 10px 20px #000000a5;
     padding: 0.5rem;
     width: 60vw;
     -webkit-backdrop-filter: blur(20px);
@@ -225,8 +225,7 @@ iframe {
     #hero {
         background: url("../images/hero-background-t.webp") no-repeat center center/cover; /* alternative hero image for larger devices */
     }
-    #hero-row,
-    #reg-row {
+    #hero-row {
         width: 80vw;
     }
     .card-p {
@@ -244,8 +243,8 @@ iframe {
     }
     /* Travel */
     #map {
-    min-height: 33vh;
-    margin-bottom: 3rem;
+        min-height: 33vh;
+        margin-bottom: 3rem;
     }
 }
 /* Small devices (mobiles, up to 470px) */
